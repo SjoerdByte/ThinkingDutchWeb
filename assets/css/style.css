@@ -10,3 +10,14 @@ body {
 .navbar-image {
     width: 200px;
 }
+
+.language-button {
+    border: 0;
+    background-color: transparent;
+}
+
+.language-flag {
+    max-height: 22px;
+    margin-right: 10px;
+    align-items: center;
+}

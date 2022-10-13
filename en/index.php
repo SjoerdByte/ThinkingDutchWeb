@@ -8,23 +8,32 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="/">
-                <img class="navbar-image" src="../assets/img/logo_transparant.png"
-            </a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <div class="my-0 mr-md-auto">
+            <img class="navbar-image" src="../assets/img/logo_transparant.png">
+        </div>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="/en">Home</a>
+            <a class="p-2 text-dark" href="/en/products">Products</a>
+            <a class="p-2 text-dark" href="/en/pricing">Pricing</a>
+            <a class="p-2 text-dark" href="/en/contact">Contact</a>
+        </nav>
+        <div class="dropdown">
+            <button class="dropdown-toggle language-button" type="button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>English</span>
             </button>
-            <div class="navbar-collapse collapse" id="navbar" style="">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                </ul>
+            <div class="dropdown-menu" aria-labelledby="changeLanguage">
+                <a class="dropdown-item" href="/en">
+                    <img class="rounded-sm language-flag" alt="United States flag" src="../assets/img/languages/us.png">
+                    English
+                </a>
+                <a class="dropdown-item" href="/nl">
+                    <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
+                    Dutch
+                </a>
             </div>
         </div>
-    </nav>
+    </div>
 </header>
 <main class="container">
     <div class="row mt-5">
