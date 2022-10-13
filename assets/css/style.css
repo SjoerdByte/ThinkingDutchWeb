@@ -21,3 +21,7 @@ body {
     margin-right: 10px;
     align-items: center;
 }
+
+.footer-logo {
+    width: 200px;
+}

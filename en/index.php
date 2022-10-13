@@ -40,11 +40,59 @@
 
     </div>
 </main>
-<!--<footer class="footer sticky">-->
-<!--    <div class="container">-->
-<!--        <span>© <b>ThinkingDutch</b> 2022</span>-->
-<!--    </div>-->
-<!--</footer>-->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <div class="py-3">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="mb-4">
+                        <img class="footer-logo" alt="ThinkingDutch logo" src="../assets/img/logo_transparant.png">
+                    </h6>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et rhoncus neque, vitae rutrum ligula.
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Telefonie</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Product #2</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Product #3</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Links
+                    </h6>
+                    <p>
+                        <a href="/" class="text-reset">Pricing</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>
+                        Adresgegevens<br>
+                        1111EK Stad<br>
+                        The Netherlands
+                    </p>
+                    <p>
+                        info@thinkingdutch.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © <?php echo date("Y"); ?>
+        <a class="text-reset fw-bold" href="/">ThinkingDutch.com</a>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
