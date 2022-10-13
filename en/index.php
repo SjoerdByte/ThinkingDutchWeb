@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="/">
                 <img class="navbar-image" src="../assets/img/logo_transparant.png"
