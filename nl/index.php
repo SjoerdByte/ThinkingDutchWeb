@@ -12,13 +12,12 @@
         <div class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </div>
-        <nav>
-            <a class="p-2 text-dark" href="/en">Home</a>
-            <a class="p-2 text-dark" href="/en/products">Products</a>
-            <a class="p-2 text-dark" href="/en/pricing">Pricing</a>
-            <a class="p-2 text-dark" href="/en/contact">Contact</a>
+        <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
+            <a class="p-3 nav-item nav-active" href="/nl">Home</a>
+            <a class="p-3 nav-item" href="/nl/products">Products</a>
+            <a class="p-3 nav-item" href="/nl/contact">Contact</a>
         </nav>
-        <div class="dropdown">
+        <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
                 <span>Nederlands</span>
@@ -40,7 +39,7 @@
             <div class="row py-4 py-lg-6">
                 <div class="col-lg-7 px-lg-6 p-4">
                     <div class="col-lg-10 ms-lg-5">
-                        <div class="lc-block mb-4">
+                        <div class="mb-4">
                             <div>
                                 <h1 class="text-heading">
                                     Maakt <span class="bold-heading">jouw</span> bedrijf<br>
@@ -55,11 +54,17 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-blue btn-lg" href="#" role="button">Contacteer ons</a>
+                        <a class="btn btn-blue btn-lg" href="#" role="button">
+                            Contacteer ons
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <polyline points="9 6 15 12 9 18"></polyline>
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
-                    <img class="img-fluid" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
+                <div class="col-lg-4 order-lg-2 d-none d-md-block d-flex align-items-center justify-content-center justify-content-lg-start">
+                    <img class="img-fluid d-none d-sm-block" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                 </div>
             </div>
         </div>
@@ -74,7 +79,7 @@
     <div class="py-3">
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="mb-4">
                         <img class="footer-logo" alt="ThinkingDutch logo" src="../assets/img/logo_transparant.png">
                     </h6>
@@ -82,34 +87,27 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et rhoncus neque, vitae rutrum ligula.
                     </p>
                 </div>
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
                         Products
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Telefonie</a>
+                        <a href="/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Product #2</a>
+                        <a href="/" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Product #3</a>
+                        <a href="/" class="text-reset">Contact</a>
                     </p>
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Business details
-                    </h6>
-                    <p>
-                        CoC: 1111111
-                    </p>
-                </div>
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                     <p>
-                        Adresgegevens<br>
-                        1111EK Stad<br>
-                        The Netherlands
+                        ThinkingDutch B.V.<br>
+                        Theodora Haverstraat 18<br>
+                        5122BD Rijen<br>
+                        Nederland
                     </p>
                     <p>
                         info@thinkingdutch.com
@@ -118,9 +116,13 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © <?php echo date("Y"); ?>
-        <a class="text-reset fw-bold" href="/">ThinkingDutch.com</a>
+    <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
+        <small>
+            KvK: <b>18083274</b> | BTW: <b>NL001676141B50</b> | Rabobank: <b>NL93 RABO 0125 4250 07</b>
+        </small>
+        <div class="list-unstyled d-flex">
+            © <?php echo date("Y"); ?> <a class="text-reset fw-bold ml-1" href="/">ThinkingDutch.com</a>
+        </div>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

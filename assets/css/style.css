@@ -68,3 +68,20 @@ a {
 .dropdown:hover {
     color: #343a40!important
 }
+
+.nav-item {
+    color: #606060;
+    font-weight: 500!important;
+}
+
+.nav-item:hover {
+    color: #090909;
+}
+
+.nav-active {
+    color: #F2A900;
+}
+
+.nav-active:hover {
+    color: #F2A900;
+}
