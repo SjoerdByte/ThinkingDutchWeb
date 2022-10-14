@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow">
         <div class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </div>
@@ -31,6 +31,39 @@
                     <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
                     Dutch
                 </a>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <div class="row py-4 py-lg-6">
+                <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+                    <div class="col-6 col-lg-10 mb-n3 mb-lg-0 d-sm-none">
+                        <img class="img-fluid shadow" src="https://images.unsplash.com/photo-1525004866327-07739b938272?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MTZ8fGJ1aWxkaW5nfGVufDB8Mnx8fDE2MzQ1NTA4MDc&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=1080" alt="Photo by Kaloyan Draganov">
+                    </div>
+                </div>
+                <div class="col-lg-7 px-lg-6 p-4">
+                    <div class="col-lg-10 ms-lg-5">
+                        <div class="lc-block mb-4">
+                            <div>
+                                <h1 class="text-heading">
+                                    Maakt <span class="bold-heading">jouw</span> bedrijf<br>
+                                    bereikbaar.
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-5">
+                            <div>
+                                <p class="lead">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Contacteer ons</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -68,10 +101,10 @@
                 </div>
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Links
+                        Business details
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Pricing</a>
+                        CoC: 1111111
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

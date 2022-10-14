@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0 auto;
 }
 
 body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fffdfd;
+}
 
+.bg-primary {
+    background-color: #FF623F!important;
+}
+
+a {
+    text-decoration: none!important;
 }
 
 .navbar-image {
@@ -24,4 +35,36 @@ body {
 
 .footer-logo {
     width: 200px;
+}
+
+.hero {
+
+}
+
+.text-heading {
+    font-weight: 500;
+}
+
+.bold-heading {
+    font-weight: 600;
+}
+
+.btn-blue {
+    background-color: #005f86;
+    border-color: #005f86;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #004d6d;
+    color: #fff;
+}
+
+.dropdown {
+    color: #343a40!important;
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    color: #343a40!important
 }
