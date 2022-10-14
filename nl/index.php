@@ -9,9 +9,9 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <div class="my-0 mr-md-auto">
+        <a href="/" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
-        </div>
+        </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item nav-active" href="/nl">Home</a>
             <a class="p-3 nav-item" href="/nl/products">Products</a>
