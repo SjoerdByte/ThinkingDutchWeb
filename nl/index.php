@@ -24,7 +24,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="changeLanguage">
                 <a class="dropdown-item" href="/en">
-                    <img class="rounded-sm language-flag" alt="United States flag" src="../assets/img/languages/us.png">
+                    <img class="rounded-sm language-flag" alt="United Kingdom flag" src="../assets/img/languages/uk.png">
                     Engels
                 </a>
                 <a class="dropdown-item" href="/nl">
