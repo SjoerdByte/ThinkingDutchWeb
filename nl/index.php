@@ -14,8 +14,8 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item nav-active" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products">Products</a>
-            <a class="p-3 nav-item" href="/nl/contact">Contact</a>
+            <a class="p-3 nav-item" href="/nl/products.php">Producten</a>
+            <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -106,7 +106,7 @@
                     <p>
                         ThinkingDutch B.V.<br>
                         Theodora Haverstraat 18<br>
-                        5122BD Rijen<br>
+                        5122BD Gilze-Rijen<br>
                         Nederland
                     </p>
                     <p>
