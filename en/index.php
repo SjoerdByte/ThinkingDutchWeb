@@ -1,4 +1,4 @@
-<html lang="nl"><head>
+<html lang="en"><head>
     <title>ThinkingDutch | Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,11 @@
             </div>
         </div>
     </div>
-    <div class="hero">
+
+
+    </div>
+</main>
+<div class="hero">
         <div class="container">
             <div class="row py-4 py-lg-6">
                 <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
@@ -47,8 +51,8 @@
                         <div class="lc-block mb-4">
                             <div>
                                 <h1 class="text-heading">
-                                    Maakt <span class="bold-heading">jouw</span> bedrijf<br>
-                                    bereikbaar.
+                                    Makes <span class="bold-heading">your</span> company<br>
+                                    accessible.
                                 </h1>
                             </div>
                         </div>
@@ -60,7 +64,7 @@
                             </div>
                         </div>
                         <div class="lc-block">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Contacteer ons</a>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -70,9 +74,6 @@
 </header>
 <main class="container">
     <div class="row mt-5">
-
-    </div>
-</main>
 <footer class="text-center text-lg-start bg-light text-muted">
     <div class="py-3">
         <div class="container text-center text-md-start mt-5">
@@ -90,40 +91,38 @@
                         Products
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Telefonie</a>
+                        <a href="#!" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Product #2</a>
+                        <a href="#!" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Product #3</a>
+                        <a href="#!" class="text-reset">Contact</a>
                     </p>
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Business details
-                    </h6>
-                    <p>
-                        CoC: 1111111
-                    </p>
-                </div>
+
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                     <p>
-                        Adresgegevens<br>
-                        1111EK Stad<br>
-                        The Netherlands
+                        ThinkingDutch<br>
+                        Theodora Haverstraat 18<br>
+                        5122BD Gilze-Rijen<br>
+                        The Netherlands<br>
                     </p>
                     <p>
-                        info@thinkingdutch.com
+                        rogier@thinkingdutch.com
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © <?php echo date("Y"); ?>
-        <a class="text-reset fw-bold" href="/">ThinkingDutch.com</a>
+    <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
+        <small>
+            Coc: <b>18083274</b> | VAT: <b>NL001676141B50</b> | Bank Details: <b>NL93 RABO 0125 4250 07</b>
+        </small>
+        <div class="list-unstyled d-flex">
+            © <?php echo date("Y"); ?> <a class="text-reset fw-bold ml-1" href="/">ThinkingDutch.com</a>
+        </div>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

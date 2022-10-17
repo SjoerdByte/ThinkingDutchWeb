@@ -14,7 +14,7 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item nav-active" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products">Products</a>
+            <a class="p-3 nav-item" href="/nl/products">Producten</a>
             <a class="p-3 nav-item" href="/nl/contact">Contact</a>
         </nav>
         <div class="dropdown nav-item">
@@ -34,7 +34,9 @@
             </div>
         </div>
     </div>
-    <div class="hero py-5">
+    
+</main>
+<div class="hero py-5">
         <div class="container">
             <div class="row py-4 py-lg-6">
                 <div class="col-lg-7 px-lg-6 p-4">
@@ -74,7 +76,7 @@
     <div class="row mt-5">
 
     </div>
-</main>
+    
 <footer class="text-center text-lg-start bg-light text-muted">
     <div class="py-3">
         <div class="container text-center text-md-start mt-5">
@@ -89,13 +91,13 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Producten
                     </h6>
                     <p>
                         <a href="/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Products</a>
+                        <a href="/" class="text-reset">Producten</a>
                     </p>
                     <p>
                         <a href="/" class="text-reset">Contact</a>
@@ -110,7 +112,7 @@
                         Nederland
                     </p>
                     <p>
-                        info@thinkingdutch.com
+                        rogier@thinkingdutch.com
                     </p>
                 </div>
             </div>
