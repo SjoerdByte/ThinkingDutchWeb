@@ -37,10 +37,6 @@ a {
     width: 200px;
 }
 
-.hero {
-
-}
-
 .text-heading {
     font-weight: 500;
 }
@@ -84,43 +80,4 @@ a {
 
 .nav-active:hover {
     color: #F2A900;
-}
-
-.business-icon {
-    width: 28px;
-    height: 28px;
-}
-
-.contact a {
-    color: #000;
-}
-
-.contact a:hover {
-    color: #F2A900;
-}
-
-.product-heading {
-    font-weight: 600;
-}
-
-.btn-orange {
-    background-color: #F2A900;
-    border-color:#F2A900;
-    color: #fff;
-}
-
-.btn-orange:hover {
-    background-color: #F2A900;
-    border-color:#F2A900;
-    color: #fff;
-}
-
-.button-icon {
-    margin-top: -2px;
-    height: 22px;
-    width: 22px;
-}
-
-.section-margin {
-    margin-top: 100px;
 }
