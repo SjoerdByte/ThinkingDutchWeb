@@ -14,8 +14,8 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item" href="/nl">Home</a>
-            <a class="p-3 nav-item nav-active" href="/nl/products.php">Producten</a>
-            <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
+            <a class="p-3 nav-item nav-active" href="/nl/products">Producten</a>
+            <a class="p-3 nav-item" href="/nl/contact">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,7 +76,9 @@
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">AutoLine</h3>
             <p>
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+                AutoLine zorgt ervoor dat u weet wie u belt doormiddel van klantinformatie te tonen op basis van het telefoonnummer.<br>
+                <br>
+                Zie het <b>klantnummer</b> en <b>kenteken(s)</b> voor het opnemen.
             </p>
             <button class="btn btn-orange">
                 Prijzen
@@ -86,7 +88,7 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
-            <h3 class="product-heading">Automotive</h3>
+            <h3 class="product-heading">Carsys</h3>
             <p>
                 Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.
                 ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.<br>
