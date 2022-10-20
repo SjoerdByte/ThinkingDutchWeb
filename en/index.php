@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html lang="en"><head>
     <title>ThinkingDutch | Home</title>
     <meta charset="UTF-8">
