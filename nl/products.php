@@ -15,6 +15,7 @@
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item" href="/nl">Home</a>
             <a class="p-3 nav-item nav-active" href="/nl/products">Producten</a>
+            <a class="p-3 nav-item" href="/nl/pricing">Prijzen</a>
             <a class="p-3 nav-item" href="/nl/contact">Contact</a>
         </nav>
         <div class="dropdown nav-item">

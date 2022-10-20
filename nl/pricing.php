@@ -1,5 +1,5 @@
 <html lang="nl"><head>
-    <title>ThinkingDutch | Contact</title>
+    <title>ThinkingDutch | Pricing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
@@ -14,8 +14,9 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products.php">Producten</a>
-            <a class="p-3 nav-item nav-active" href="/nl/contact.php">Contact</a>
+            <a class="p-3 nav-item" href="/nl/products">Producten</a>
+            <a class="p-3 nav-item nav-active" href="/nl/pricing">Prijzen</a>
+            <a class="p-3 nav-item" href="/nl/contact">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,57 +37,157 @@
     </div>
 </header>
 <main class="container">
-    <div class="row mt-5">
-        <div class="col-12 col-lg-6">
-            <h4>Contacteer ons</h4>
-            <form method="POST" action="/contact.php">
-                <div class="row mt-4">
-                    <div class="col-12 col-lg-6">
-                        <div class="form-group">
-                            <label>Uw naam</label>
-                            <input required type="text" name="name" class="form-control" placeholder="Uw naam">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="form-group">
-                            <label>Uw email</label>
-                            <input required type="email" name="email" class="form-control" placeholder="Uw email">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-12">
-                        <div class="form-group">
-                            <label>Bericht</label>
-                            <textarea required class="form-control" name="message" rows="3"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2 text-right">
-                    <div class="col-12">
-                        <button class="btn btn-primary">Versturen</button>
-                    </div>
-                </div>
-            </form>
+    <div class="row mt-5" id="exactonline">
+        <div class="col-12 text-center">
+            <h3 class="product-heading">Exact Online</h3>
+            <p>
+                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+            </p>
         </div>
-        <div class="col-12 col-lg-4">
-            <h4>Contact gegevens</h4>
-            <div class="mt-4 contact">
-                <p>
-                    <img class="business-icon" src="../assets/img/logo_icon_transparant.png">
-                    ThinkingDutch B.V.<br>
-                    Theodora Haverstraat 18<br>
-                    5122BD Gilze-Rijen<br>
-                    Nederland
-                </p>
-                <p>
-                    <img class="contact-icon" src="../assets/img/mail.svg">
-                    <a href="mailto:rogier@thinkingdutch.com">rogier@thinkingdutch.com</a>
-                </p>
-                <p>
-                    <img class="contact-icon" src="../assets/img/phone.svg">
-                    <a href="tel:+31858768712">085 8768712</a>
-                </p>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Eerste gebruiker</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;10.00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Eenvoudig zelf te installeren.
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Alle mogelijkheden met één bedrag.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Tot 50 gebruikers</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;2.00
+                    </span>/maand <small>per gebruiker</small>
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Voeg makkelijk extra gebruikers toe via onze portal.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;0.00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <small>
+                        Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section-margin" id="dwpro">
+        <div class="col-8 text-center">
+            <h3 class="product-heading">DW Pro</h3>
+            <p>
+                Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt. ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Eerste gebruiker</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;10.00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Eenvoudig zelf te installeren.
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Alle mogelijkheden met één bedrag.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Tot 50 gebruikers</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;2.00
+                    </span>/maand <small>per gebruiker</small>
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            Voeg makkelijk extra gebruikers toe via onze portal.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <small class='text-muted'>Exact Online</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;0.00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                    </div>
+                    <small>
+                        Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
+                    </small>
+                </div>
             </div>
         </div>
     </div>

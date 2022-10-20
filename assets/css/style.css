@@ -120,3 +120,11 @@ a {
 .section-margin {
     margin-top: 100px;
 }
+
+.pricing-feature {
+    display: inline-block;
+}
+
+.pricing-icon {
+    stroke: #F2A900;
+}
