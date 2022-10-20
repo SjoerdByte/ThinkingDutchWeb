@@ -25,11 +25,11 @@
                 <span>English</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="changeLanguage">
-                <a class="dropdown-item" href="/nl">
+                <a class="dropdown-item" href="/nl/products.php">
                     <img class="rounded-sm language-flag" alt="Dutch flag" src="../assets/img/languages/nl.png">
                     Dutch
                 </a>
-                <a class="dropdown-item" href="/en">
+                <a class="dropdown-item" href="/en/products.php">
                     <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
                     English
                 </a>
