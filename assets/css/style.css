@@ -1,4 +1,87 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fffdfd;
+}
+
+.bg-primary {
+    background-color: #FF623F!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.navbar-image {
+    width: 200px;
+}
+
+.language-button {
+    border: 0;
+    background-color: transparent;
+}
+
+.language-flag {
+    max-height: 22px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.text-heading {
+    font-weight: 500;
+}
+
+.bold-heading {
+    font-weight: 600;
+}
+
+.btn-blue {
+    background-color: #005f86;
+    border-color: #005f86;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #004d6d;
+    color: #fff;
+}
+
+.dropdown {
+    color: #343a40!important;
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    color: #343a40!important
+}
+
+.nav-item {
+    color: #606060;
+    font-weight: 500!important;
+}
+
+.nav-item:hover {
+    color: #090909;
+}
+
+.nav-active {
+    color: #F2A900;
+}
+
+.nav-active:hover {
+    color: #F2A900;
 
 * {
     padding: 0;
