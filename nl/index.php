@@ -10,14 +10,14 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/" class="my-0 mr-md-auto">
+        <a href="/nl" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item nav-active" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products">Producten</a>
-            <a class="p-3 nav-item" href="/nl/pricing">Prijzen</a>
-            <a class="p-3 nav-item" href="/nl/contact">Contact</a>
+            <a class="p-3 nav-item" href="/nl/products.php">Producten</a>
+            <a class="p-3 nav-item" href="/nl/pricing.php">Prijzen</a>
+            <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -59,7 +59,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a class="btn btn-blue btn-lg" href="#" role="button">
+                            <a class="btn btn-blue btn-lg" href="/nl/contact.php" role="button">
                                 Contacteer ons
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
