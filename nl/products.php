@@ -10,7 +10,7 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/" class="my-0 mr-md-auto">
+        <a href="/nl" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
@@ -47,10 +47,10 @@
             <p>
                 ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
             </p>
-            <button class="btn btn-orange">
+            <a href="/nl/pricing.php#exactonline" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
     </div>
     <div class="row section-margin">
@@ -62,10 +62,10 @@
                 <br>
                 Zie <b>kentekens</b> en <b>dossiernummers</b> voordat u opneemt.
             </p>
-            <button class="btn btn-orange">
+            <a href="/nl/pricing.php#dwpro" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
         <div class="col-12 col-lg-4">
             <img class="img-fluid" src="../assets/img/dw_pro.png">
@@ -82,10 +82,10 @@
                 <br>
                 Zie het <b>klantnummer</b> en <b>kenteken(s)</b> voor het opnemen.
             </p>
-            <button class="btn btn-orange">
+            <a href="/nl/pricing.php#autoline" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
     </div>
     <div class="row section-margin">
@@ -97,10 +97,10 @@
                 <br>
                 Zie <b>kentekens</b> en <b>dossiernummers</b> voordat u opneemt.
             </p>
-            <button class="btn btn-orange">
-                Prijzen
+            <a href="/nl/contact.php" class="btn btn-orange">
+                Contact opnemen
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
         <div class="col-12 col-lg-4">
             <img class="img-fluid" src="../assets/img/automotive.png">
@@ -121,16 +121,19 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Links
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Home</a>
+                        <a href="/nl/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Products</a>
+                        <a href="/nl/products.php" class="text-reset">Producten</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Contact</a>
+                        <a href="/nl/pricing.php" class="text-reset">Prijzen</a>
+                    </p>
+                    <p>
+                        <a href="/nl/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">

@@ -97,6 +97,7 @@ a {
 
 .product-heading {
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .btn-orange {
@@ -118,7 +119,7 @@ a {
 }
 
 .section-margin {
-    margin-top: 100px;
+    margin-top: 125px;
 }
 
 * {

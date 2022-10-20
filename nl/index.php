@@ -59,7 +59,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a class="btn btn-blue btn-lg" href="/nl/contact.php" role="button">
+                            <a class="btn btn-dark btn-lg" href="/nl/contact.php" role="button">
                                 Contacteer ons
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -90,16 +90,19 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Producten
+                        Links
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Home</a>
+                        <a href="/nl/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Producten</a>
+                        <a href="/nl/products.php" class="text-reset">Producten</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Contact</a>
+                        <a href="/nl/pricing.php" class="text-reset">Prijzen</a>
+                    </p>
+                    <p>
+                        <a href="/nl/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
@@ -111,7 +114,7 @@
                         Nederland
                     </p>
                     <p>
-                        rogier@thinkingdutch.com
+                        info@thinkingdutch.com
                     </p>
                 </div>
             </div>

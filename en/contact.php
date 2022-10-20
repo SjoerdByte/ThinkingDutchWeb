@@ -1,4 +1,5 @@
-<html lang="en"><head>
+<html lang="nl">
+<head>
     <title>ThinkingDutch | Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,14 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/" class="my-0 mr-md-auto">
+        <a href="/en" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
-            <a class="p-3 nav-item" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products.php">Products</a>
-            <a class="p-3 nav-item nav-active" href="/nl/contact.php">Contact</a>
+            <a class="p-3 nav-item" href="/en">Home</a>
+            <a class="p-3 nav-item" href="/en/products.php">Products</a>
+            <a class="p-3 nav-item" href="/en/pricing.php">Pricing</a>
+            <a class="p-3 nav-item nav-active" href="/en/contact.php">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -23,13 +25,13 @@
                 <span>English</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="changeLanguage">
-                <a class="dropdown-item" href="/en">
-                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
-                    English
-                </a>
                 <a class="dropdown-item" href="/nl">
                     <img class="rounded-sm language-flag" alt="Dutch flag" src="../assets/img/languages/nl.png">
                     Dutch
+                </a>
+                <a class="dropdown-item" href="/en">
+                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                    English
                 </a>
             </div>
         </div>
@@ -39,18 +41,35 @@
     <div class="row mt-5">
         <div class="col-12 col-lg-6">
             <h4>Contact us</h4>
-            <form method="POST" action="/contact.php">
+            <form method="POST" action="/backend/contact.php">
                 <div class="row mt-4">
+                    <?php
+                        if (isset($_GET['status'])) {
+                    ?>
+                    <div class="col-12">
+                        <div class="alert alert-success" role="alert">
+                            <small>
+                            <?php
+                                if($_GET['status'] == 'success') {
+                                    echo 'We have received your message, we will contact you soon!';
+                                }
+                            ?>
+                            </small>
+                        </div>
+                    </div>
+                    <?php
+                        }
+                    ?>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Your name</label>
-                            <input required type="text" name="name" class="form-control" placeholder="Uw naam">
+                            <input required type="text" name="name" class="form-control" placeholder="Your name">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Your email</label>
-                            <input required type="email" name="email" class="form-control" placeholder="Uw email">
+                            <input required type="email" name="email" class="form-control" placeholder="Your email">
                         </div>
                     </div>
                 </div>
@@ -64,24 +83,24 @@
                 </div>
                 <div class="row mt-2 text-right">
                     <div class="col-12">
-                        <button class="btn btn-primary">Send</button>
+                        <button class="btn btn-dark">Send</button>
                     </div>
                 </div>
             </form>
         </div>
         <div class="col-12 col-lg-4">
-            <h4>Contact information</h4>
+            <h4>Contact details</h4>
             <div class="mt-4 contact">
                 <p>
                     <img class="business-icon" src="../assets/img/logo_icon_transparant.png">
                     ThinkingDutch B.V.<br>
                     Theodora Haverstraat 18<br>
                     5122BD Gilze-Rijen<br>
-                    Netherlands
+                    The Netherlands
                 </p>
                 <p>
                     <img class="contact-icon" src="../assets/img/mail.svg">
-                    <a href="mailto:rogier@thinkingdutch.com">rogier@thinkingdutch.com</a>
+                    <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                 </p>
                 <p>
                     <img class="contact-icon" src="../assets/img/phone.svg">
@@ -105,16 +124,19 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Links
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Home</a>
+                        <a href="/en/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Products</a>
+                        <a href="/en/products.php" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Contact</a>
+                        <a href="/en/pricing.php" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="/en/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
@@ -122,8 +144,8 @@
                     <p>
                         ThinkingDutch B.V.<br>
                         Theodora Haverstraat 18<br>
-                        5122BD Gilze-Rijen<br>
-                        Nederland
+                        5122BD Rijen<br>
+                        The Netherlands
                     </p>
                     <p>
                         info@thinkingdutch.com
@@ -134,7 +156,7 @@
     </div>
     <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
         <small>
-            Coc: <b>18083274</b> | VAT: <b>NL001676141B50</b> | Bank details: <b>NL93 RABO 0125 4250 07</b>
+            CoC: <b>18083274</b> | VAT: <b>NL001676141B50</b> | Bank details: <b>NL93 RABO 0125 4250 07</b>
         </small>
         <div class="list-unstyled d-flex">
             © <?php echo date("Y"); ?> <a class="text-reset fw-bold ml-1" href="/">ThinkingDutch.com</a>

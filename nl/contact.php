@@ -10,7 +10,7 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/" class="my-0 mr-md-auto">
+        <a href="/nl" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
@@ -41,8 +41,25 @@
     <div class="row mt-5">
         <div class="col-12 col-lg-6">
             <h4>Contacteer ons</h4>
-            <form method="POST" action="/contact.php">
+            <form method="POST" action="/backend/contact.php">
                 <div class="row mt-4">
+                    <?php
+                        if (isset($_GET['status'])) {
+                    ?>
+                    <div class="col-12">
+                        <div class="alert alert-success" role="alert">
+                            <small>
+                            <?php
+                                if($_GET['status'] == 'success') {
+                                    echo 'We hebben uw bericht ontvangen, we nemen snel contact met u op!';
+                                }
+                            ?>
+                            </small>
+                        </div>
+                    </div>
+                    <?php
+                        }
+                    ?>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Uw naam</label>
@@ -66,7 +83,7 @@
                 </div>
                 <div class="row mt-2 text-right">
                     <div class="col-12">
-                        <button class="btn btn-primary">Versturen</button>
+                        <button class="btn btn-dark">Versturen</button>
                     </div>
                 </div>
             </form>
@@ -83,7 +100,7 @@
                 </p>
                 <p>
                     <img class="contact-icon" src="../assets/img/mail.svg">
-                    <a href="mailto:rogier@thinkingdutch.com">rogier@thinkingdutch.com</a>
+                    <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                 </p>
                 <p>
                     <img class="contact-icon" src="../assets/img/phone.svg">
@@ -107,16 +124,19 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Links
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Home</a>
+                        <a href="/nl/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Products</a>
+                        <a href="/nl/products.php" class="text-reset">Producten</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Contact</a>
+                        <a href="/nl/pricing.php" class="text-reset">Prijzen</a>
+                    </p>
+                    <p>
+                        <a href="/nl/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">

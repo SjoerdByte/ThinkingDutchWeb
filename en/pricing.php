@@ -10,28 +10,28 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/nl" class="my-0 mr-md-auto">
+        <a href="/en" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
-            <a class="p-3 nav-item" href="/nl">Home</a>
-            <a class="p-3 nav-item" href="/nl/products.php">Producten</a>
-            <a class="p-3 nav-item nav-active" href="/nl/pricing.php">Prijzen</a>
-            <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
+            <a class="p-3 nav-item" href="/en">Home</a>
+            <a class="p-3 nav-item" href="/en/products.php">Products</a>
+            <a class="p-3 nav-item nav-active" href="/en/pricing.php">Pricing</a>
+            <a class="p-3 nav-item" href="/en/contact.php">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
-                <span>Nederlands</span>
+                <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                <span>English</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="changeLanguage">
-                <a class="dropdown-item" href="/en">
-                    <img class="rounded-sm language-flag" alt="United Kingdom flag" src="../assets/img/languages/uk.png">
-                    Engels
-                </a>
                 <a class="dropdown-item" href="/nl">
-                    <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
-                    Nederlands
+                    <img class="rounded-sm language-flag" alt="Dutch flag" src="../assets/img/languages/nl.png">
+                    Dutch
+                </a>
+                <a class="dropdown-item" href="/en">
+                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                    English
                 </a>
             </div>
         </div>
@@ -42,7 +42,7 @@
         <div class="col-12 text-center">
             <h3 class="product-heading">Exact Online</h3>
             <p>
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+                ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
         </div>
     </div>
@@ -50,24 +50,24 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Eerste gebruiker</h5>
+                    <h5 class="card-title">First user</h5>
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
                         &euro;10.00
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Eenvoudig zelf te installeren.
+                            Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Alle mogelijkheden met één bedrag.
+                            All options with one package.
                         </li>
                     </ul>
                 </div>
@@ -76,20 +76,20 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Tot 50 gebruikers</h5>
+                    <h5 class="card-title">Up to 50 users</h5>
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
                         &euro;2.00
-                    </span>/maand <small>per gebruiker</small>
+                    </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Voeg makkelijk extra gebruikers toe via onze portal.
+                            Easily add additional users through our portal.
                         </li>
                     </ul>
                 </div>
@@ -98,18 +98,18 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <h5 class="card-title">Custom</h5>
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
                         &euro;0.00
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
-                        Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
+                        Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
                     </small>
                 </div>
             </div>
@@ -119,7 +119,7 @@
         <div class="col-8 text-center">
             <h3 class="product-heading">DW Pro</h3>
             <p>
-                Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt. ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.
+                Knowing who your customers are. This starts with recognizing your customer when they call. ThinkingDutch links with your Dw Pro for all your employees through your VoIP PBX.
             </p>
         </div>
     </div>
@@ -127,24 +127,24 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Eerste gebruiker</h5>
+                    <h5 class="card-title">First user</h5>
                     <small class='text-muted'>DW Pro</small>
                     <br><br>
                     <span class="h2">
                         &euro;17,50
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Eenvoudig zelf te installeren.
+                            Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Alle mogelijkheden met één bedrag. <b>Inclusief</b> benodigde hardware.
+                            All options with one package. <b>Including</b> the necessary hardware.
                         </li>
                     </ul>
                 </div>
@@ -153,20 +153,20 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Tot 50 gebruikers</h5>
+                    <h5 class="card-title">Up to 50 users</h5>
                     <small class='text-muted'>DW Pro</small>
                     <br><br>
                     <span class="h2">
                         &euro;4,75
-                    </span>/maand <small>per gebruiker</small>
+                    </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Voeg makkelijk extra gebruikers toe via onze portal.
+                            Easily add additional users through our portal.
                         </li>
                     </ul>
                 </div>
@@ -175,18 +175,18 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <h5 class="card-title">Custom</h5>
                     <small class='text-muted'>DW Pro</small>
                     <br><br>
                     <span class="h2">
                         &euro;0.00
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
-                        Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
+                        Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
                     </small>
                 </div>
             </div>
@@ -196,7 +196,7 @@
         <div class="col-8 text-center">
             <h3 class="product-heading">Autoline</h3>
             <p>
-                AutoLine zorgt ervoor dat u weet wie u belt doormiddel van klantinformatie te tonen op basis van het telefoonnummer.
+                AutoLine makes sure you know who is calling you by displaying customer information based on the phone number.
             </p>
         </div>
     </div>
@@ -204,24 +204,24 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Eerste gebruiker</h5>
+                    <h5 class="card-title">First user</h5>
                     <small class='text-muted'>Autoline</small>
                     <br><br>
                     <span class="h2">
                         &euro;17,50
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Eenvoudig zelf te installeren.
+                            Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Alle mogelijkheden met één bedrag. <b>Inclusief</b> benodigde hardware.
+                            All options with one package. <b>Including</b> the necessary hardware.
                         </li>
                     </ul>
                 </div>
@@ -230,20 +230,20 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Tot 50 gebruikers</h5>
+                    <h5 class="card-title">Up to 50 users</h5>
                     <small class='text-muted'>Autoline</small>
                     <br><br>
                     <span class="h2">
                         &euro;4,75
-                    </span>/maand <small>per gebruiker</small>
+                    </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="../assets/img/circle-check.svg">
-                            Voeg makkelijk extra gebruikers toe via onze portal.
+                            Easily add additional users through our portal.
                         </li>
                     </ul>
                 </div>
@@ -252,25 +252,25 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <h5 class="card-title">Custom</h5>
                     <small class='text-muted'>Autoline</small>
                     <br><br>
                     <span class="h2">
                         &euro;0.00
-                    </span>/maand
+                    </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
-                        Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
+                        Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
                     </small>
                 </div>
             </div>
         </div>
     </div>
 </main>
-<footer class="text-center text-lg-start bg-light text-muted mt-5">
+<footer class="text-center text-lg-start bg-light text-muted">
     <div class="py-3">
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
@@ -287,16 +287,16 @@
                         Links
                     </h6>
                     <p>
-                        <a href="/nl/" class="text-reset">Home</a>
+                        <a href="/en/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/nl/products.php" class="text-reset">Producten</a>
+                        <a href="/en/products.php" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="/nl/pricing.php" class="text-reset">Prijzen</a>
+                        <a href="/en/pricing.php" class="text-reset">Pricing</a>
                     </p>
                     <p>
-                        <a href="/nl/contact.php" class="text-reset">Contact</a>
+                        <a href="/en/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
@@ -304,8 +304,8 @@
                     <p>
                         ThinkingDutch B.V.<br>
                         Theodora Haverstraat 18<br>
-                        5122BD Gilze-Rijen<br>
-                        Nederland
+                        5122BD Rijen<br>
+                        The Netherlands
                     </p>
                     <p>
                         info@thinkingdutch.com
@@ -316,7 +316,7 @@
     </div>
     <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
         <small>
-            KvK: <b>18083274</b> | BTW: <b>NL001676141B50</b> | Rabobank: <b>NL93 RABO 0125 4250 07</b>
+            CoC: <b>18083274</b> | VAT: <b>NL001676141B50</b> | Bank details: <b>NL93 RABO 0125 4250 07</b>
         </small>
         <div class="list-unstyled d-flex">
             © <?php echo date("Y"); ?> <a class="text-reset fw-bold ml-1" href="/">ThinkingDutch.com</a>

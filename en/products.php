@@ -1,4 +1,5 @@
-<html lang="en"><head>
+<html lang="nl">
+<head>
     <title>ThinkingDutch | Products</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +10,28 @@
 <body>
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow">
-        <a href="/" class="my-0 mr-md-auto">
+        <a href="/en" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
-            <a class="p-3 nav-item" href="/nl">Home</a>
-            <a class="p-3 nav-item nav-active" href="/nl/products.php">Products</a>
-            <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
+            <a class="p-3 nav-item" href="/en">Home</a>
+            <a class="p-3 nav-item nav-active" href="/en/products.php">Products</a>
+            <a class="p-3 nav-item" href="/en/pricing.php">Pricing</a>
+            <a class="p-3 nav-item" href="/en/contact.php">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
                 <span>English</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="chsangeLanguage">
-                <a class="dropdown-item" href="/en">
-                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
-                    English
-                </a>
+            <div class="dropdown-menu" aria-labelledby="changeLanguage">
                 <a class="dropdown-item" href="/nl">
                     <img class="rounded-sm language-flag" alt="Dutch flag" src="../assets/img/languages/nl.png">
                     Dutch
+                </a>
+                <a class="dropdown-item" href="/en">
+                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                    English
                 </a>
             </div>
         </div>
@@ -45,25 +47,25 @@
             <p>
                 ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
-            <button class="btn btn-orange">
-                Prices
+            <a href="/en/pricing.php#exactonline" class="btn btn-orange">
+                Pricing
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">DW Pro</h3>
             <p>
-                Know who your customers are. This starts with recognising your customer when they call.
-                 ThinkingDutch links with your Dw Pro for all your employees via your VoIP PBX.<br>
+                Knowing who your customers are. This starts with recognizing your customer when they call.
+                ThinkingDutch links with your Dw Pro for all your employees through your VoIP PBX.<br>
                 <br>
-                See<b>licence plates</b> and <b>case numbers</b> before you pick up.
+                See <b>license plates</b> and <b>file numbers</b> before picking up.
             </p>
-            <button class="btn btn-orange">
-                Prices
+            <a href="/en/pricing.php#dwpro" class="btn btn-orange">
+                Pricing
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
         <div class="col-12 col-lg-4">
             <img class="img-fluid" src="../assets/img/dw_pro.png">
@@ -76,27 +78,29 @@
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">AutoLine</h3>
             <p>
-                ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
+                AutoLine ensures that you know who is calling you by displaying customer information based on the phone number.<br>
+                <br>
+                See <b>customer number</b> and <b>license plate(s)</b> before picking up.
             </p>
-            <button class="btn btn-orange">
-                Prices
+            <a href="/en/pricing.php#autoline" class="btn btn-orange">
+                Pricing
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">Carsys</h3>
             <p>
-                Know who your customers are. This starts with recognising your customer when they call. 
-                ThinkingDutch links with your Dw Pro for all your employees via your VoIP telephone exchange.<br>
+                Knowing who your customers are. This starts with recognizing your customer when they call.
+                ThinkingDutch links with your Dw Pro for all your employees through your VoIP PBX.<br>
                 <br>
-                See <b>lisence plates</b> and <b>case numbers</b> before you pick up.
+                See <b>license plates</b> and <b>file numbers</b> before picking up.
             </p>
-            <button class="btn btn-orange">
-                Prices
+            <a href="/en/contact.php" class="btn btn-orange">
+                Contact us
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
-            </button>
+            </a>
         </div>
         <div class="col-12 col-lg-4">
             <img class="img-fluid" src="../assets/img/automotive.png">
@@ -117,16 +121,19 @@
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        Links
                     </h6>
                     <p>
-                        <a href="/" class="text-reset">Home</a>
+                        <a href="/en/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Products</a>
+                        <a href="/en/products.php" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="/" class="text-reset">Contact</a>
+                        <a href="/en/pricing.php" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="/en/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
@@ -134,8 +141,8 @@
                     <p>
                         ThinkingDutch B.V.<br>
                         Theodora Haverstraat 18<br>
-                        5122BD Gilze-Rijen<br>
-                        Nederland
+                        5122BD Rijen<br>
+                        The Netherlands
                     </p>
                     <p>
                         info@thinkingdutch.com
