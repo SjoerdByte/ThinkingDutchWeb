@@ -1,4 +1,4 @@
-<html lang="nl"><head>
+<html lang="en"><head>
     <title>ThinkingDutch | Products</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,27 +14,22 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-3 nav-item" href="/nl">Home</a>
-<<<<<<< HEAD
-            <a class="p-3 nav-item nav-active" href="/nl/products">Producten</a>
-            <a class="p-3 nav-item" href="/nl/contact">Contact</a>g
-=======
-            <a class="p-3 nav-item nav-active" href="/nl/products.php">Producten</a>
+            <a class="p-3 nav-item nav-active" href="/nl/products.php">Products</a>
             <a class="p-3 nav-item" href="/nl/contact.php">Contact</a>
->>>>>>> bec505b86f2b0c6c61afeb6798ec52401a4d18a5
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
-                <span>Nederlands</span>
+                <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                <span>English</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="changeLanguage">
+            <div class="dropdown-menu" aria-labelledby="chsangeLanguage">
                 <a class="dropdown-item" href="/en">
-                    <img class="rounded-sm language-flag" alt="United Kingdom flag" src="../assets/img/languages/uk.png">
-                    Engels
+                    <img class="rounded-sm language-flag" alt="UK flag" src="../assets/img/languages/uk.png">
+                    English
                 </a>
                 <a class="dropdown-item" href="/nl">
-                    <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../assets/img/languages/nl.png">
-                    Nederlands
+                    <img class="rounded-sm language-flag" alt="Dutch flag" src="../assets/img/languages/nl.png">
+                    Dutch
                 </a>
             </div>
         </div>
@@ -48,10 +43,10 @@
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">Exact Online</h3>
             <p>
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+                ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
             <button class="btn btn-orange">
-                Prijzen
+                Prices
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </button>
         </div>
@@ -60,13 +55,13 @@
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">DW Pro</h3>
             <p>
-                Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.
-                ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.<br>
+                Know who your customers are. This starts with recognising your customer when they call.
+                 ThinkingDutch links with your Dw Pro for all your employees via your VoIP PBX.<br>
                 <br>
-                Zie <b>kentekens</b> en <b>dossiernummers</b> voordat u opneemt.
+                See<b>licence plates</b> and <b>case numbers</b> before you pick up.
             </p>
             <button class="btn btn-orange">
-                Prijzen
+                Prices
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </button>
         </div>
@@ -81,35 +76,25 @@
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">AutoLine</h3>
             <p>
-<<<<<<< HEAD
-                AutoLine zorgt ervoor dat u weet wie u belt doormiddel van klantinformatie te tonen op basis van het telefoonnummer.<br>
-                <br>
-                Zie het <b>klantnummer</b> en <b>kenteken(s)</b> voor het opnemen.
-=======
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
->>>>>>> bec505b86f2b0c6c61afeb6798ec52401a4d18a5
+                ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
             <button class="btn btn-orange">
-                Prijzen
+                Prices
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </button>
         </div>
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
-<<<<<<< HEAD
             <h3 class="product-heading">Carsys</h3>
-=======
-            <h3 class="product-heading">Automotive</h3>
->>>>>>> bec505b86f2b0c6c61afeb6798ec52401a4d18a5
             <p>
-                Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.
-                ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.<br>
+                Know who your customers are. This starts with recognising your customer when they call. 
+                ThinkingDutch links with your Dw Pro for all your employees via your VoIP telephone exchange.<br>
                 <br>
-                Zie <b>kentekens</b> en <b>dossiernummers</b> voordat u opneemt.
+                See <b>lisence plates</b> and <b>case numbers</b> before you pick up.
             </p>
             <button class="btn btn-orange">
-                Prijzen
+                Prices
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </button>
         </div>
@@ -161,7 +146,7 @@
     </div>
     <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
         <small>
-            KvK: <b>18083274</b> | BTW: <b>NL001676141B50</b> | Rabobank: <b>NL93 RABO 0125 4250 07</b>
+            CoC: <b>18083274</b> | VAT: <b>NL001676141B50</b> | Bank details: <b>NL93 RABO 0125 4250 07</b>
         </small>
         <div class="list-unstyled d-flex">
             © <?php echo date("Y"); ?> <a class="text-reset fw-bold ml-1" href="/">ThinkingDutch.com</a>
