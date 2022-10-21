@@ -13,7 +13,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $email . "\r\n";
 
-if(mail('info@null.com', 'Contact formulier', $body, $headers)) {
+if(mail('info@thinkingdutch.com', 'Contact formulier', $body, $headers)) {
     header('Content-type: application/json');
     echo json_encode(['success' => true]);
 } else {
