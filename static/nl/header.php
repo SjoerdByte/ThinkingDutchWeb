@@ -27,16 +27,16 @@
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../../assets/img/languages/nl.png">
+                <img class="rounded-sm language-flag" alt="Dutch flag" src="../../assets/img/languages/nl.png">
                 <span>Nederlands</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="changeLanguage">
                 <a class="dropdown-item" href="/en/<?php echo $switchPageUrl; ?>">
-                    <img class="rounded-sm language-flag" alt="United Kingdom flag" src="../../assets/img/languages/uk.png">
+                    <img class="rounded-sm language-flag" alt="UK flag" src="../../assets/img/languages/uk.png">
                     Engels
                 </a>
                 <a class="dropdown-item" href="/nl/<?php echo $switchPageUrl; ?>">
-                    <img class="rounded-sm language-flag" alt="The Netherlands flag" src="../../assets/img/languages/nl.png">
+                    <img class="rounded-sm language-flag" alt="Dutch flag" src="../../assets/img/languages/nl.png">
                     Nederlands
                 </a>
             </div>
