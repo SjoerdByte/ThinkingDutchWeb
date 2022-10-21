@@ -1,4 +1,4 @@
-<footer class="text-center text-lg-start bg-light text-muted mt-5">
+<footer class="text-center text-lg-start bg-light text-muted navbar fixed-bottom mt-5">
     <div class="py-3">
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
