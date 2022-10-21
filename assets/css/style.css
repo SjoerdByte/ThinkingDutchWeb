@@ -262,3 +262,9 @@ a {
     left: 0;
     z-index: 1030;
 }
+
+@media (max-width: 767px) {
+    .text-xs-center {
+        text-align: center;
+    }
+}
