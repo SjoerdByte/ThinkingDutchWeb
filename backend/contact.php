@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
@@ -15,8 +13,10 @@ $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $email . "\r\n";
 
-if(mail('info@thinkingdutch.com', 'Contact formulier', $body, $headers)) {
-    header('Location: ' . $_SERVER['HTTP_REFERER'] .'?status=success');
+if(mail('info@null.com', 'Contact formulier', $body, $headers)) {
+    header('Content-type: application/json');
+    echo json_encode(['success' => true]);
 } else {
-    header('Location: ' . $_SERVER['HTTP_REFERER'] .'?status=error');
+    header('Content-type: application/json');
+    echo json_encode(['success' => false]);
 }

@@ -11,7 +11,7 @@
             <p>
                 ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
             </p>
-            <a href="/nl/pricing.php#exactonline" class="btn btn-orange">
+            <a href="/nl/pricing.php" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </a>

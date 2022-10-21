@@ -4,38 +4,27 @@
 <main class="container contact-hero">
     <div class="row mt-5 mb-5 ">
         <div class="col-12 col-lg-6 mb-4">
-            <h4>Contacteer ons</h4>
+            <h4>
+                Contacteer ons
+                <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
+            </h4>
             <form method="POST" action="/backend/contact.php">
                 <div class="row mt-4">
-                    <?php
-                        if (isset($_GET['status'])) {
-                    ?>
-                    <div class="col-12">
-                        <div class="alert <?php if($_GET['status'] == 'success') { echo 'alert-success'; } else { echo 'alert-danger'; } ?>" role="alert">
-                            <small>
-                            <?php
-                                if($_GET['status'] == 'success') {
-                                    echo 'We hebben uw bericht ontvangen, we nemen snel contact met u op!';
-                                } elseif($_GET['status'] == 'error') {
-                                    echo 'We konden uw bericht niet versturen, probeer het laten opnieuw.';
-                                }
-                            ?>
-                            </small>
+                    <div id="response_message" style="display:none;" class="col-12">
+                        <div id="response_class" class="alert" role="alert">
+                            <small id="response_body">No message specified.</small>
                         </div>
                     </div>
-                    <?php
-                        }
-                    ?>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Uw naam</label>
-                            <input required type="text" name="name" class="form-control" placeholder="Uw naam">
+                            <input required type="text" id="name" name="name" class="form-control" placeholder="Uw naam">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Uw email</label>
-                            <input required type="email" name="email" class="form-control" placeholder="Uw email">
+                            <input required type="email" id="email" name="email" class="form-control" placeholder="Uw email">
                         </div>
                     </div>
                 </div>
@@ -43,7 +32,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <label>Bericht</label>
-                            <textarea required class="form-control" name="message" rows="3"></textarea>
+                            <textarea required class="form-control" id="message" name="message" rows="3"></textarea>
                         </div>
                     </div>
                 </div>

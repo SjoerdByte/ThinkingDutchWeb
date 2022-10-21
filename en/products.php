@@ -11,7 +11,7 @@
             <p>
                 ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
-            <a href="/en/pricing.php#exactonline" class="btn btn-orange">
+            <a href="/en/pricing.php" class="btn btn-orange">
                 Pricing
                 <img class="button-icon" src="../assets/img/chevron-right.svg">
             </a>

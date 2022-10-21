@@ -4,28 +4,17 @@
 <main class="container contact-hero">
     <div class="row mt-5">
         <div class="col-12 col-lg-6 mb-4">
-            <h4>Contact us</h4>
+            <h4>
+                Contact us
+                <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
+            </h4>
             <form method="POST" action="/backend/contact.php">
                 <div class="row mt-4">
-                    <?php
-                        if (isset($_GET['status'])) {
-                    ?>
-                    <div class="col-12">
-                        <div class="alert alert-success" role="alert">
-                            <small>
-                            <?php
-                                if($_GET['status'] == 'success') {
-                                    echo 'We have received your message, we will contact you soon!';
-                                } elseif($_GET['status'] == 'error') {
-                                    echo 'We could not send your message, please try again.';
-                                }
-                            ?>
-                            </small>
+                    <div id="response_message" style="display:none;" class="col-12">
+                        <div id="response_class" class="alert" role="alert">
+                            <small id="response_body">No message specified.</small>
                         </div>
                     </div>
-                    <?php
-                        }
-                    ?>
                     <div class="col-12 col-lg-6">
                         <div class="form-group">
                             <label>Your name</label>
