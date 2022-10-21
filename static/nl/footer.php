@@ -30,7 +30,7 @@
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                     <p>
-                        ThinkingDutch B.V.<br>
+                        ThinkingDutch<br>
                         Theodora Haverstraat 18<br>
                         5122BD Rijen<br>
                         Nederland

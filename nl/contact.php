@@ -59,7 +59,7 @@
             <div class="mt-4 contact">
                 <p>
                     <img class="business-icon" src="../assets/img/logo_icon_transparant.png">
-                    ThinkingDutch B.V.<br>
+                    ThinkingDutch<br>
                     Theodora Haverstraat 18<br>
                     5122BD Gilze-Rijen<br>
                     Nederland
