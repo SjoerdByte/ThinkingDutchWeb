@@ -1,3 +1,4 @@
+const currentLanguage = location.pathname.split('/')[1];
 const language = {
     nl: {
         'mail_success': 'We hebben uw bericht ontvangen, we nemen snel contact met u op!',
@@ -8,13 +9,13 @@ const language = {
         'mail_error': 'We could not send your message, please try again.'
     }
 }
-const currentLanguage = location.pathname.split('/')[1];
 
 $("form").submit(function(e){
-    document.getElementById('response_loading').style.display = 'block';
     e.preventDefault()
 
-    var form = $(this);
+    document.getElementById('response_loading').style.display = 'block';
+
+    let form = $(this);
     $.ajax({
         url: '/backend/contact.php',
         type: 'POST',
