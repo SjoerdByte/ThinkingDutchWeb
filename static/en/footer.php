@@ -37,9 +37,14 @@
                         5122BD Gilze-Rijen<br>
                         The Netherlands
                     </p>
-                    <p>
-                        info@thinkingdutch.com
-                    </p>
+                    <div>
+                        <p class="twitter-class">
+                            <img class="twitter-icon" src="/assets/img/twitter.png" alt="Twitter Logo">
+                            <a href="https://twitter.com/thinkingdutch" target="_BLANL">@thinkingdutch</a>
+                        <p>
+                            info@thinkingdutch.com
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

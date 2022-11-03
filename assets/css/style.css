@@ -254,6 +254,11 @@ a {
     display: inline-block;
 }
 
+.twitter-icon {
+    width: 18px;
+    height: 18px;
+}
+
 .navbar-fixed {
     background-color: #FFFDFD;
     position: fixed;
@@ -261,6 +266,10 @@ a {
     right: 0;
     left: 0;
     z-index: 1030;
+}
+
+.twitter-class {
+    margin-bottom: 4px;
 }
 
 @media (max-width: 767px) {
