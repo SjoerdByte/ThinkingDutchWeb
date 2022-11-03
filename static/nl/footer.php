@@ -29,27 +29,32 @@
                         <a href="/nl/contact.php" class="text-reset">Contact</a>
                     </p>
                 </div>
-                <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4 text-xs-center">
+                <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4 text-xs-center contact-footer">
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                     <p>
+                        <img class="business-icon" src="../assets/img/logo_icon_transparant.png">
                         ThinkingDutch<br>
                         Theodora Haverstraat 18<br>
                         5122BD Gilze-Rijen<br>
                         Nederland
                     </p>
-                    <div>
-                        <p class="twitter-class">
-                            <img class="twitter-icon" src="/assets/img/twitter.png" alt="Twitter Logo">
-                            <a href="https://twitter.com/thinkingdutch" target="_BLANL">@thinkingdutch</a>
-                        <p>
-                            info@thinkingdutch.com
-                        </p>
-                    </div>
+                    <p class="contact-details">
+                        <img class="contact-icon" src="../assets/img/mail.svg" alt="Email Icon">
+                        <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
+                    </p>
+                    <p class="contact-details">
+                        <img class="contact-icon" src="../assets/img/twitter.svg" alt="Twitter Logo">
+                        <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
+                    </p>
+                    <p class="contact-details">
+                        <img class="contact-icon" src="../assets/img/phone.svg" alt="Phone Icon">
+                        <a href="tel:+31858768712">085 8768712</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="p-4 d-flex justify-content-between mt-3" style="background-color: rgba(0, 0, 0, 0.05);">
         <small class="d-none d-lg-block">
             KvK: <b>18083274</b> | BTW: <b>NL001676141B50</b> | Rabobank: <b>NL93 RABO 0125 4250 07</b>
         </small>

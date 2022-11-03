@@ -53,12 +53,16 @@
                     5122BD Gilze-Rijen<br>
                     Nederland
                 </p>
-                <p>
-                    <img class="contact-icon" src="../assets/img/mail.svg">
+                <p class="contact-details">
+                    <img class="contact-icon" src="../assets/img/mail.svg" alt="Email Icon">
                     <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                 </p>
-                <p>
-                    <img class="contact-icon" src="../assets/img/phone.svg">
+                <p class="contact-details">
+                    <img class="contact-icon" src="../assets/img/twitter.svg" alt="Twitter Logo">
+                    <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
+                </p>
+                <p class="contact-details">
+                    <img class="contact-icon" src="../assets/img/phone.svg" alt="Phone Icon">
                     <a href="tel:+31858768712">085 8768712</a>
                 </p>
             </div>
