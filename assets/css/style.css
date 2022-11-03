@@ -95,6 +95,16 @@ a {
     height: 28px;
 }
 
+.address-details {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width : 992px) {
+    .address-spacing {
+        margin-left: 33px;
+    }
+}
+
 .contact a {
     color: #000;
 }

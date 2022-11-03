@@ -46,12 +46,14 @@
         <div class="col-12 col-lg-4">
             <h4>Contact gegevens</h4>
             <div class="mt-4 contact">
-                <p>
-                    <img class="business-icon" src="../assets/img/logo_icon_transparant.png">
+                <p class="address-details">
+                    <img class="business-icon" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                     ThinkingDutch<br>
-                    Theodora Haverstraat 18<br>
-                    5122BD Gilze-Rijen<br>
-                    Nederland
+                    <div class="address-spacing">
+                        Theodora Haverstraat 18<br>
+                        5122BD Gilze-Rijen<br>
+                        Nederland
+                    </div>
                 </p>
                 <p class="contact-details">
                     <img class="contact-icon" src="../assets/img/mail.svg" alt="Email Icon">
