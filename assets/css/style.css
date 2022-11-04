@@ -1,3 +1,13 @@
+/*COLOUR PALLETE
+    #fffdfd Background Colour
+    #F2A900 Logo Colour
+    #343A40 Contact Button Colour
+    #F8F9FA Footer Topper Colour
+    #EBECED Footer Buttom Colour
+    #F2A900 Link Hover Colour
+    Inter | Font
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
 * {
@@ -13,37 +23,19 @@ body {
     flex-direction: column;
 }
 
+/*All Main CSS Code*/
+
 main {
     flex: 1 0 auto;
-}
-
-footer {
-    flex-shrink: 0;
-    width: 100%;
 }
 
 .bg-primary {
     background-color: #FF623F!important;
 }
 
-a {
-    text-decoration: none!important;
-}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.navbar-image {
-    width: 200px;
-}
-
-.language-button {
-    border: 0;
-    background-color: transparent;
-}
-
-.language-flag {
-    max-height: 22px;
-    margin-right: 10px;
-    align-items: center;
-}
+/*All Heading Code*/
 
 .text-heading {
     font-weight: 500;
@@ -53,24 +45,38 @@ a {
     font-weight: 600;
 }
 
-.btn-blue {
-    background-color: #005f86;
-    border-color: #005f86;
-    color: #fff;
+.product-heading {
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
-.btn-blue:hover {
-    background-color: #004d6d;
-    color: #fff;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All nav Code*/
+
+.nav-item {
+    color: #606060;
+    font-weight: 500!important;
 }
 
-.dropdown {
-    color: #343a40!important;
-    cursor: pointer;
+.nav-item:hover {
+    color: #090909;
 }
 
-.dropdown:hover {
-    color: #343a40!important
+.nav-active {
+    color: #F2A900;
+}
+
+.nav-active:hover {
+    color: #F2A900;
+}
+
+.navbar-image {
+    width: 200px;
+}
+
+.navbar-image {
+    width: 200px;
 }
 
 .nav-item {
@@ -90,19 +96,21 @@ a {
     color: #F2A900;
 }
 
-.business-icon {
-    width: 28px;
-    height: 28px;
+.navbar-fixed {
+    background-color: #FFFDFD;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
-.address-details {
-    margin-bottom: 0;
-}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen and (min-width : 992px) {
-    .address-spacing {
-        margin-left: 33px;
-    }
+/*All anker Code*/
+
+a {
+    text-decoration: none!important;
 }
 
 .contact a {
@@ -113,9 +121,40 @@ a {
     color: #F2A900;
 }
 
-.product-heading {
-    font-weight: 600;
-    margin-bottom: 15px;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Language Code*/
+
+.language-button {
+    border: 0;
+    background-color: transparent;
+}
+
+.language-flag {
+    max-height: 22px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Button Code*/
+
+.button-icon {
+    margin-top: -2px;
+    height: 22px;
+    width: 22px;
+}
+
+.btn-blue {
+    background-color: #005f86;
+    border-color: #005f86;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #004d6d;
+    color: #fff;
 }
 
 .btn-orange {
@@ -130,109 +169,22 @@ a {
     color: #fff;
 }
 
-.button-icon {
-    margin-top: -2px;
-    height: 22px;
-    width: 22px;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All selection Code*/
+
+::selection {
+    color: #3d2a00;
+    background: #ffe19c;
 }
 
 .section-margin {
     padding-top: 125px;
 }
 
-@media only screen and (min-width : 320px) {
-    .landing-hero {
-        padding-top: 130px;
-    }
-}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen and (min-width : 992px) {
-    .landing-hero {
-        padding-top: 112px;
-    }
-}
-
-@media only screen and (min-width : 320px) {
-    .products-hero {
-        padding-top: 195px;
-    }
-}
-
-@media only screen and (min-width : 992px) {
-    .products-hero {
-        padding-top: 150px;
-    }
-}
-
-@media only screen and (min-width : 320px) {
-    .contact-hero {
-        padding-top: 195px;
-    }
-}
-
-@media only screen and (min-width : 992px) {
-    .contact-hero {
-        padding-top: 150px;
-    }
-}
-
-@media only screen and (min-width : 320px) {
-    .pricing-hero {
-        padding-top: 200px;
-    }
-}
-
-@media only screen and (min-width : 992px) {
-    .pricing-hero {
-        padding-top: 150px;
-    }
-}
-
-.bg-primary {
-    background-color: #FF623F!important;
-}
-
-a {
-    text-decoration: none!important;
-}
-
-.navbar-image {
-    width: 200px;
-}
-
-.language-button {
-    border: 0;
-    background-color: transparent;
-}
-
-.language-flag {
-    max-height: 22px;
-    margin-right: 10px;
-    align-items: center;
-}
-
-.footer-logo {
-    width: 200px;
-}
-
-.text-heading {
-    font-weight: 500;
-}
-
-.bold-heading {
-    font-weight: 600;
-}
-
-.btn-blue {
-    background-color: #005f86;
-    border-color: #005f86;
-    color: #fff;
-}
-
-.btn-blue:hover {
-    background-color: #004d6d;
-    color: #fff;
-}
+/*All Dropdown Code*/
 
 .dropdown {
     color: #343a40!important;
@@ -243,25 +195,74 @@ a {
     color: #343a40!important
 }
 
-.nav-item {
-    color: #606060;
-    font-weight: 500!important;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Media Code*/
+/*All 993px Code*/
+@media only screen and (min-width : 992px) {
+    .address-spacing {
+        margin-left: 33px;
+    }
 }
 
-.nav-item:hover {
-    color: #090909;
+@media only screen and (min-width : 992px) {
+    .landing-hero {
+        padding-top: 112px;
+    }
 }
 
-.nav-active {
-    color: #F2A900;
+@media only screen and (min-width : 992px) {
+    .contact-hero {
+        padding-top: 150px;
+    }
 }
 
-.nav-active:hover {
-    color: #F2A900;
+@media only screen and (min-width : 992px) {
+    .products-hero {
+        padding-top: 150px;
+    }
 }
 
-.pricing-feature {
-    display: inline-block;
+/*All 320px Code*/
+@media only screen and (min-width : 320px) {
+    .landing-hero {
+        padding-top: 130px;
+    }
+}
+
+
+@media only screen and (min-width : 320px) {
+    .products-hero {
+        padding-top: 195px;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    .contact-hero {
+        padding-top: 195px;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    .pricing-hero {
+        padding-top: 200px;
+    }
+}
+
+/*All 767px Code*/
+@media (max-width: 767px) {
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Icons Code*/
+
+.business-icon {
+    width: 28px;
+    height: 28px;
 }
 
 .twitter-icon {
@@ -269,13 +270,20 @@ a {
     height: 18px;
 }
 
-.navbar-fixed {
-    background-color: #FFFDFD;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Pricing Code*/
+
+.pricing-feature {
+    display: inline-block;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All Contact info Code*/
+
+.address-details {
+    margin-bottom: 0;
 }
 
 .contact-details {
@@ -286,6 +294,15 @@ a {
     margin-bottom: 4px;
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*All footer Code*/
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+
 footer a {
     color: #6c757d;
 }
@@ -294,8 +311,6 @@ footer a:hover {
     color: #F2A900;
 }
 
-@media (max-width: 767px) {
-    .text-xs-center {
-        text-align: center;
-    }
+.footer-logo {
+    width: 200px;
 }
