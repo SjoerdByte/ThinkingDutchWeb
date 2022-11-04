@@ -40,3 +40,12 @@ function showMessage(message, type) {
     document.getElementById('response_class').classList.add('alert-' + type);
     document.getElementById('response_body').innerHTML = message;
 }
+
+$(window).scroll(function() {
+    let y = $(window).scrollTop();
+    if (y > 0) {
+        $("#navbar").addClass('shadow-sm');
+    } else {
+        $("#navbar").removeClass('shadow-sm');
+    }
+});

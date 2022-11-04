@@ -1,7 +1,6 @@
 <?php
     $currentPage = explode("/", str_replace(".php", "", $_SERVER['REQUEST_URI']))[2];
     $switchPageUrl = '';
-    if($currentPage) $switchPageUrl = $currentPage . '.php';
     if(!$currentPage) $currentPage = 'home';
 ?>
 <html lang="nl">
@@ -15,7 +14,7 @@
 </head>
 <body>
 <header>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow navbar-fixed">
+    <div id="navbar" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow navbar-fixed">
         <a href="/en" class="my-0 mr-md-auto">
             <img class="navbar-image" src="../assets/img/logo_transparant.png">
         </a>
