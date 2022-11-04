@@ -1,5 +1,5 @@
 const currentLanguage = location.pathname.split('/')[1];
-const language = {
+const languagePack = {
     nl: {
         'mail_success': 'We hebben uw bericht ontvangen, we nemen snel contact met u op!',
         'mail_error': 'We konden uw bericht niet versturen, probeer het laten opnieuw.'
@@ -8,7 +8,7 @@ const language = {
         'mail_success': 'We have received your message, we will contact you soon!',
         'mail_error': 'We could not send your message, please try again.'
     }
-}
+};
 
 $("form").submit(function(e){
     e.preventDefault()
@@ -23,9 +23,9 @@ $("form").submit(function(e){
         success: function(response) {
             document.getElementById('response_loading').style.display = 'none';
             if(response.success) {
-                showMessage(language[currentLanguage]['mail_success'], 'success')
+                showMessage(languagePack[currentLanguage]['mail_success'], 'success')
             } else {
-                showMessage(language[currentLanguage]['mail_success'], 'danger')
+                showMessage(languagePack[currentLanguage]['mail_success'], 'danger')
             }
         }
     });
