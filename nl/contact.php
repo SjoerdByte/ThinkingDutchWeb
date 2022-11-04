@@ -8,7 +8,7 @@
                 Contacteer ons
                 <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
             </h4>
-            <form method="POST" action="/backend/contact.php">
+            <form method="POST" action="/backend/contact">
                 <div class="row mt-4">
                     <div id="response_message" style="display:none;" class="col-12">
                         <div id="response_class" class="alert" role="alert">

@@ -17,16 +17,16 @@
                         Links
                     </h6>
                     <p>
-                        <a href="/nl/" class="text-reset">Home</a>
+                        <a href="/en/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/nl/products.php" class="text-reset">Products</a>
+                        <a href="/en/products" class="text-reset">Products</a>
                     </p>
                     <p>
-                        <a href="/nl/pricing.php" class="text-reset">Pricing</a>
+                        <a href="/en/pricing" class="text-reset">Pricing</a>
                     </p>
                     <p>
-                        <a href="/nl/contact.php" class="text-reset">Contact</a>
+                        <a href="/en/contact" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4 text-xs-center">

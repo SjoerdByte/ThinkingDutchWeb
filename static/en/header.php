@@ -21,9 +21,9 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'home') echo 'nav-active' ?>" href="/en">Home</a>
-            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'products') echo 'nav-active' ?>" href="/en/products.php">Products</a>
-            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'pricing') echo 'nav-active' ?>" href="/en/pricing.php">Pricing</a>
-            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'contact') echo 'nav-active' ?>" href="/en/contact.php">Contact</a>
+            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'products') echo 'nav-active' ?>" href="/en/products">Products</a>
+            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'pricing') echo 'nav-active' ?>" href="/en/pricing">Pricing</a>
+            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'contact') echo 'nav-active' ?>" href="/en/contact">Contact</a>
         </nav>
         <div class="dropdown nav-item">
             <a class="dropdown dropdown-toggle language-button" id="changeLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

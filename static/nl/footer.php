@@ -20,13 +20,13 @@
                         <a href="/nl/" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="/nl/products.php" class="text-reset">Producten</a>
+                        <a href="/nl/products" class="text-reset">Producten</a>
                     </p>
                     <p>
-                        <a href="/nl/pricing.php" class="text-reset">Prijzen</a>
+                        <a href="/nl/pricing" class="text-reset">Prijzen</a>
                     </p>
                     <p>
-                        <a href="/nl/contact.php" class="text-reset">Contact</a>
+                        <a href="/nl/contact" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4 text-xs-center contact-footer">

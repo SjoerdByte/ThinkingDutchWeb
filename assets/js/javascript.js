@@ -17,7 +17,7 @@ $("form").submit(function(e){
 
     let form = $(this);
     $.ajax({
-        url: '/backend/contact.php',
+        url: '/backend/contact',
         type: 'POST',
         data: form.serialize(),
         success: function(response) {
