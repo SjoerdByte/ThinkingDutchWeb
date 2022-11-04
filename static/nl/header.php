@@ -1,6 +1,6 @@
 <?php
     $currentPage = explode("/", str_replace(".php", "", $_SERVER['REQUEST_URI']))[2];
-    $switchPageUrl = '';
+    $switchPageUrl = $currentPage;
     if(!$currentPage) $currentPage = 'home';
 ?>
 <html lang="nl">
