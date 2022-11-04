@@ -26,11 +26,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Eenvoudig zelf te installeren.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Alle mogelijkheden met één bedrag.
                         </li>
                     </ul>
@@ -52,7 +52,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Voeg makkelijk extra gebruikers toe via onze portal.
                         </li>
                     </ul>
@@ -103,11 +103,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Eenvoudig zelf te installeren.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Alle mogelijkheden met één bedrag. <b>Inclusief</b> benodigde hardware.
                         </li>
                     </ul>
@@ -129,7 +129,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Voeg makkelijk extra gebruikers toe via onze portal.
                         </li>
                     </ul>
@@ -180,11 +180,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Eenvoudig zelf te installeren.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Alle mogelijkheden met één bedrag. <b>Inclusief</b> benodigde hardware.
                         </li>
                     </ul>
@@ -206,7 +206,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Voeg makkelijk extra gebruikers toe via onze portal.
                         </li>
                     </ul>

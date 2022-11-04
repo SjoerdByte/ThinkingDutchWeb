@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 order-lg-2 d-none d-md-block d-flex align-items-center justify-content-center justify-content-lg-start">
-                        <img class="img-fluid d-none d-sm-block" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
+                        <img class="img-fluid d-none d-sm-block" src="/assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                     </div>
                 </div>
             </div>

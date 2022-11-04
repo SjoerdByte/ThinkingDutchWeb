@@ -4,7 +4,7 @@
 <main class="container section-margin products-hero">
     <div class="row mt-5">
         <div class="col-12 col-lg-4">
-            <img class="img-fluid mb-4" src="../assets/img/exact_online.png">
+            <img class="img-fluid mb-4" src="/assets/img/exact_online.png">
         </div>
         <div class="col-12 col-lg-6">
             <h3 class="product-heading">Exact Online</h3>
@@ -13,7 +13,7 @@
             </p>
             <a href="/nl/pricing.php" class="btn btn-orange">
                 Prijzen
-                <img class="button-icon" src="../assets/img/chevron-right.svg">
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
         </div>
     </div>
@@ -28,16 +28,16 @@
             </p>
             <a href="/nl/pricing.php#dwpro" class="btn btn-orange">
                 Prijzen
-                <img class="button-icon" src="../assets/img/chevron-right.svg">
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
         </div>
         <div class="col-12 col-lg-4">
-            <img class="img-fluid" src="../assets/img/dw_pro.png">
+            <img class="img-fluid" src="/assets/img/dw_pro.png">
         </div>
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-4">
-            <img class="img-fluid mb-4" src="../assets/img/autoline.png">
+            <img class="img-fluid mb-4" src="/assets/img/autoline.png">
         </div>
         <div class="col-12 col-lg-6">
             <h3 class="product-heading">AutoLine</h3>
@@ -48,7 +48,7 @@
             </p>
             <a href="/nl/pricing.php#autoline" class="btn btn-orange">
                 Prijzen
-                <img class="button-icon" src="../assets/img/chevron-right.svg">
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
         </div>
     </div>
@@ -63,14 +63,14 @@
             </p>
             <a href="/nl/contact.php" class="btn btn-orange">
                 Contact opnemen
-                <img class="button-icon" src="../assets/img/chevron-right.svg">
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
         </div>
         <div class="col-12 col-lg-4">
-            <img class="img-fluid" src="../assets/img/automotive.png">
+            <img class="img-fluid" src="/assets/img/automotive.png">
         </div>
     </div>
 </main>
 <?php
     include('../static/nl/footer.php');
-?>
+?>g

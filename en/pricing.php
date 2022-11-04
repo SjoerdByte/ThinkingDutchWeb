@@ -26,11 +26,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             All options with one package.
                         </li>
                     </ul>
@@ -52,7 +52,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easily add additional users through our portal.
                         </li>
                     </ul>
@@ -103,11 +103,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             All options with one package. <b>Including</b> the necessary hardware.
                         </li>
                     </ul>
@@ -129,7 +129,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easily add additional users through our portal.
                         </li>
                     </ul>
@@ -180,11 +180,11 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easy to install yourself.
                         </li>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             All options with one package. <b>Including</b> the necessary hardware.
                         </li>
                     </ul>
@@ -206,7 +206,7 @@
                     </div>
                     <ul>
                         <li class="pricing-feature">
-                            <img class="pricing-icon" src="../assets/img/circle-check.svg">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easily add additional users through our portal.
                         </li>
                     </ul>

@@ -47,7 +47,7 @@
             <h4>Contact gegevens</h4>
             <div class="mt-4 contact">
                 <p class="address-details">
-                    <img class="business-icon" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
+                    <img class="business-icon" src="/assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                     ThinkingDutch<br>
                     <div class="address-spacing">
                         Theodora Haverstraat 18<br>
@@ -56,15 +56,15 @@
                     </div>
                 </p>
                 <p class="contact-details">
-                    <img class="contact-icon" src="../assets/img/mail.svg" alt="Email Icon">
+                    <img class="contact-icon" src="/assets/img/mail.svg" alt="Email Icon">
                     <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                 </p>
                 <p class="contact-details">
-                    <img class="contact-icon" src="../assets/img/twitter.svg" alt="Twitter Logo">
+                    <img class="contact-icon" src="/assets/img/twitter.svg" alt="Twitter Logo">
                     <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
                 </p>
                 <p class="contact-details">
-                    <img class="contact-icon" src="../assets/img/phone.svg" alt="Phone Icon">
+                    <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">
                     <a href="tel:+31858768712">085 8768712</a>
                 </p>
             </div>

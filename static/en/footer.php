@@ -5,7 +5,7 @@
                 <div class="col-12 col-lg-5 mx-auto mb-4">
                     <div class="col-10 text-center">
                         <h6 class="mb-4">
-                            <img class="footer-logo" alt="ThinkingDutch logo" src="../assets/img/logo_transparant.png">
+                            <img class="footer-logo" alt="ThinkingDutch logo" src="/assets/img/logo_transparant.png">
                         </h6>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et rhoncus neque, vitae rutrum ligula.
@@ -32,7 +32,7 @@
                 <div class="col-12 col-lg-4 mx-auto mb-md-0 mb-4 text-xs-center">
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                     <p class="address-details">
-                        <img class="business-icon" src="../assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
+                        <img class="business-icon" src="/assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                         ThinkingDutch<br>
                         <div class="address-spacing">
                             Theodora Haverstraat 18<br>
@@ -41,15 +41,15 @@
                         </div>
                     </p>
                     <p class="contact-details">
-                        <img class="contact-icon" src="../assets/img/mail.svg" alt="Email Icon">
+                        <img class="contact-icon" src="/assets/img/mail.svg" alt="Email Icon">
                         <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                     </p>
                     <p class="contact-details">
-                        <img class="contact-icon" src="../assets/img/twitter.svg" alt="Twitter Logo">
+                        <img class="contact-icon" src="/assets/img/twitter.svg" alt="Twitter Logo">
                         <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
                     </p>
                     <p class="contact-details">
-                        <img class="contact-icon" src="../assets/img/phone.svg" alt="Phone Icon">
+                        <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">
                         <a href="tel:+31858768712">085 8768712</a>
                     </p>
                 </div>
@@ -67,5 +67,5 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/js/javascript.js"></script>
+<script src="/assets/js/javascript.js"></script>
 </body>
