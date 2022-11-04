@@ -22,7 +22,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -48,7 +48,7 @@
                     </span>/maand <small>per gebruiker</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -70,7 +70,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <small>
                         Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
@@ -99,7 +99,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -125,7 +125,7 @@
                     </span>/maand <small>per gebruiker</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -147,7 +147,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <small>
                         Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
@@ -176,7 +176,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -202,7 +202,7 @@
                     </span>/maand <small>per gebruiker</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -224,7 +224,7 @@
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/nl/contact.php" class="btn btn-outline-dark btn-block">Contacteer ons</a>
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Contacteer ons</a>
                     </div>
                     <small>
                         Uiteraard hebben we voor groot verbruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.

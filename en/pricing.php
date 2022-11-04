@@ -22,7 +22,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -48,7 +48,7 @@
                     </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -70,7 +70,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
                         Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
@@ -99,7 +99,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -125,7 +125,7 @@
                     </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -147,7 +147,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
                         Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
@@ -176,7 +176,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -202,7 +202,7 @@
                     </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <ul>
                         <li class="pricing-feature">
@@ -224,7 +224,7 @@
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
-                        <a href="/en/contact.php" class="btn btn-outline-dark btn-block">Contact us</a>
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
                     <small>
                         Of course, we have quantity discounts for large consumers. Please contact us for a customized offer.
