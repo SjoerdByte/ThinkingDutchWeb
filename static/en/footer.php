@@ -50,7 +50,7 @@
                     </p>
                     <p class="contact-details">
                         <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">
-                        <a href="tel:+31858768712">085 8768712</a>
+                        <a href="tel:+31857826772">085 7826772</a>
                     </p>
                 </div>
             </div>
