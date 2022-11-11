@@ -179,7 +179,7 @@ a {
 }
 
 .section-margin {
-    padding-top: 125px;
+    padding-top: 100px;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -219,7 +219,7 @@ a {
 
 @media only screen and (min-width : 992px) {
     .products-hero {
-        padding-top: 150px;
+        padding-top: 105px;
     }
 }
 

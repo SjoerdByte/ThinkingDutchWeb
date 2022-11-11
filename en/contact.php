@@ -2,7 +2,7 @@
     include('../static/en/header.php');
 ?>
 <main class="container contact-hero">
-    <div class="row mt-5">
+    <div class="row">
         <div class="col-12 col-lg-6 mb-4">
             <h4>
                 Contact us
@@ -51,7 +51,7 @@
                     ThinkingDutch<br>
                     <div class="address-spacing">
                         Theodora Haverstraat 18<br>
-                        5122BD Gilze-Rijen<br>
+                        5122BD Rijen<br>
                         The Netherlands
                     </div>
                 </p>
@@ -72,5 +72,6 @@
     </div>
 </main>
 <?php
+    $disableDetails = true;
     include('../static/en/footer.php');
 ?>

@@ -2,10 +2,10 @@
     include('../static/nl/header.php');
 ?>
 <main class="container contact-hero">
-    <div class="row mt-5 mb-5 ">
+    <div class="row">
         <div class="col-12 col-lg-6 mb-4">
             <h4>
-                Contacteer ons
+                Neem contact op
                 <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
             </h4>
             <form method="POST" action="/backend/contact">
@@ -51,7 +51,7 @@
                     ThinkingDutch<br>
                     <div class="address-spacing">
                         Theodora Haverstraat 18<br>
-                        5122BD Gilze-Rijen<br>
+                        5122BD Rijen<br>
                         Nederland
                     </div>
                 </p>
@@ -72,5 +72,6 @@
     </div>
 </main>
 <?php
+    $disableDetails = true;
     include('../static/nl/footer.php');
 ?>

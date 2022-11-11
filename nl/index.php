@@ -5,25 +5,25 @@
         <div class="row landing-hero">
             <div class="hero py-5">
                 <div class="container">
-                    <div class="row py-4 py-lg-6">
+                    <div class="row py-2 py-lg-6">
                         <div class="col-lg-7 px-lg-6 p-4">
                             <div class="col-lg-10 ms-lg-5">
                                 <div class="mb-4">
                                     <div>
                                         <h1 class="text-heading">
-                                            Maakt <span class="bold-heading">jouw</span> bedrijf bereikbaar.
+                                            Slimme software oplossingen voor <br><span class="bold-heading">jouw</span> bedrijf.
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="mb-3">
                                     <div>
                                         <p class="lead">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit
+                                            Wij ontwikkelen slimme software met toegevoegde waarde voor jouw onderneming.
                                         </p>
                                     </div>
                                 </div>
                                 <a class="btn btn-dark btn-lg" href="/nl/contact" role="button">
-                                    Contacteer ons
+                                    Neem contact op
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                         <polyline points="9 6 15 12 9 18"></polyline>

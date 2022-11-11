@@ -11,14 +11,14 @@
                             <div class="mb-4">
                                 <div>
                                     <h1 class="text-heading">
-                                        Makes <span class="bold-heading">your</span> business reachable.
+                                        Smart software solutions for <span class="bold-heading">your</span> business.
                                     </h1>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div>
                                     <p class="lead">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit
+                                        We develop smart, value-added software for your business.
                                     </p>
                                 </div>
                             </div>
