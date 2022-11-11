@@ -7,7 +7,7 @@
             <img class="img-fluid mb-4" src="/assets/img/td-messenger.png" alt="TD Messenger">
         </div>
         <div class="col-12 col-lg-6">
-            <h3 class="product-heading">TD Messenger</h3>
+            <h3 class="product-heading">tdMessenger</h3>
             <p>
                 Communiceer met heel uw bedrijf over één of meerdere vaste telefoonnummers via WhatsApp.<br>
                 <br>

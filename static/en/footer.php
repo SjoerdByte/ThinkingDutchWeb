@@ -5,7 +5,7 @@
         <div class="py-3">
             <div class="container mt-5">
                 <div class="row mt-3">
-                    <div class="col-12 col-lg-5 mx-auto">
+                    <div class="col-12 col-lg-4 mx-auto">
                         <p class="address-details">
                             <img class="business-icon" src="/assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">
                             ThinkingDutch<br>

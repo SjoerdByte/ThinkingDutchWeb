@@ -4,9 +4,9 @@
 <main class="container pricing-hero">
     <div class="row" id="tdmessenger">
         <div class="col-12 text-center">
-            <h3 class="product-heading">TD Messenger</h3>
+            <h3 class="product-heading">tdMessenger</h3>
             <p>
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+                Communicate with all of your company over one or more landline phone numbers via WhatsApp.
             </p>
         </div>
     </div>
@@ -284,7 +284,7 @@
         <div class="col-12 text-center">
             <h3 class="product-heading">Exact Online</h3>
             <p>
-                ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
+                See NAW information of the caller before answering.
             </p>
         </div>
     </div>

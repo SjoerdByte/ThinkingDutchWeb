@@ -4,9 +4,9 @@
 <main class="container pricing-hero">
     <div class="row" id="tdmessenger">
         <div class="col-12 text-center">
-            <h3 class="product-heading">TD Messenger</h3>
+            <h3 class="product-heading">tdMessenger</h3>
             <p>
-                ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
+                Communiceer met heel uw bedrijf over één of meerdere vaste telefoonnummers via WhatsApp.
             </p>
         </div>
     </div>
@@ -15,7 +15,7 @@
             <div class="card card1 h-100">
                 <div class="card-body">
                     <h5 class="card-title">Setup kosten</h5>
-                    <small class='text-muted'>TD Messenger</small>
+                    <small class='text-muted'>tdMessenger</small>
                     <br><br>
                     <span class="h2">
                         &euro;0.00
@@ -40,8 +40,8 @@
         <div class="col-12 col-lg-6 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Maandelijkse kosten</h5>
-                    <small class='text-muted'>TD Messenger</small>
+                    <h5 class="card-title">Maandkosten start</h5>
+                    <small class='text-muted'>tdMessenger</small>
                     <br><br>
                     <span class="h2">
                         &euro;100.00
@@ -284,7 +284,7 @@
         <div class="col-12 text-center">
             <h3 class="product-heading">Exact Online</h3>
             <p>
-                Zie NAW gegevens van de beller voordat u opneemt. Zie <a href="https://exact.com" target="_BLANK">Exact Online</a>.
+                Zie NAW gegevens van de beller voordat u opneemt.
             </p>
         </div>
     </div>
