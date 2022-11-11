@@ -11,40 +11,14 @@
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-12 col-lg-6 mb-4">
+        <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Setup fee</h5>
-                    <small class='text-muted'>TD Messenger</small>
+                    <h5 class="card-title">Start</h5>
+                    <small class='text-muted'>tdMessenger</small>
                     <br><br>
                     <span class="h2">
-                        &euro;0.00
-                    </span>/one-time
-                    <br><br>
-                    <div class="d-grid my-3">
-                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
-                    </div>
-                    <ul>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            To be discussed by mutual agreement
-                        </li>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            We will guide you through the application
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 mb-4">
-            <div class="card card1 h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Monthly costs</h5>
-                    <small class='text-muted'>TD Messenger</small>
-                    <br><br>
-                    <span class="h2">
-                        &euro;100.00
+                        &euro;100,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
@@ -62,6 +36,58 @@
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Start with 125 unique contacts per month
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Extensive</h5>
+                    <small class='text-muted'>tdMessenger</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;125,00
+                    </span>/month
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Unlimited number of internal users
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Unlimited number of number links
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Expanding by 500 unique contacts per month
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Custom</h5>
+                    <small class='text-muted'>tdMessenger</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;0,00
+                    </span>/month
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Of course, we have quantity discounts for large users. Please contact us for a customized offer.
                         </li>
                     </ul>
                 </div>

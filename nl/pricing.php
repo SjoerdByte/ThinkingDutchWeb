@@ -11,40 +11,14 @@
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-12 col-lg-6 mb-4">
+        <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Setup kosten</h5>
+                    <h5 class="card-title">Start</h5>
                     <small class='text-muted'>tdMessenger</small>
                     <br><br>
                     <span class="h2">
-                        &euro;0.00
-                    </span>/eenmalig
-                    <br><br>
-                    <div class="d-grid my-3">
-                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Neem contact op</a>
-                    </div>
-                    <ul>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            In overleg te bespreken
-                        </li>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Wij begeleiden u door de aanvraag heen
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 mb-4">
-            <div class="card card1 h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Maandkosten start</h5>
-                    <small class='text-muted'>tdMessenger</small>
-                    <br><br>
-                    <span class="h2">
-                        &euro;100.00
+                        &euro;100,00
                     </span>/maand
                     <br><br>
                     <div class="d-grid my-3">
@@ -62,6 +36,58 @@
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Start met 125 unieke contacten per maand
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Uitgebreid</h5>
+                    <small class='text-muted'>tdMessenger</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;125,00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Neem contact op</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Onbeperkt aantal interne gebruikers
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Onbeperkt aantal nummer koppelingen
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Uitbreiding met 500 unieke contacten per maand
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Op maat gemaakt</h5>
+                    <small class='text-muted'>tdMessenger</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;0,00
+                    </span>/maand
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/nl/contact" class="btn btn-outline-dark btn-block">Neem contact op</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Uiteraard hebben we voor groot gebruikers kwantumkorting. Neem contact met ons op voor een aanbieding op maat.
                         </li>
                     </ul>
                 </div>

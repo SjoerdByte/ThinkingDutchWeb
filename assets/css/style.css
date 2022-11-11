@@ -314,3 +314,17 @@ footer a:hover {
 .footer-logo {
     width: 200px;
 }
+
+/*
+    Anchor fix
+ */
+
+#carsys {
+    padding-top: 140px;
+    margin-top: -140px;
+}
+
+#exactonline {
+    padding-top: 120px;
+    margin-top: -120px;
+}
