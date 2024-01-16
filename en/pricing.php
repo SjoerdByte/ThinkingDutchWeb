@@ -8,18 +8,84 @@
             <p>
                 Communicate with all of your company over one or more landline phone numbers via WhatsApp.
             </p>
+            <p>
+                Know who your customers are when they start a WhatsApp conversation. Transfer calls to colleagues. Send promotions and much more.
+            </p>
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Start</h5>
-                    <small class='text-muted'>tdMessenger</small>
+                    <h4 class="card-title">Standard</h4>
+                    <hr>
+<!--                    <small class='text-muted'>tdMessenger</small>-->
+<!--                    <br><br>-->
+
+                    <span class="h6">
+                        For pricing information, contact us via our contact form.
+                    </span>
                     <br><br>
-                    <span class="h2">
-                        &euro;100,00
-                    </span>/month
+
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Unlimited number of internal users
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Unlimited number of number links
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h4 class="card-title">Carsys</h4>
+                    <hr>
+<!--                    <small class='text-muted'>tdMessenger</small>-->
+<!--                    <br><br>-->
+
+                    <span class="h6">
+                        Contact your supplier or via our contact form.
+                    </span>
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Unlimited number of internal users
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Fair Use Policy
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Easily add additional users via our portal
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h4 class="card-title">Wincar</h4>
+                    <hr>
+<!--                    <small class='text-muted'>tdMessenger</small>-->
+<!--                    <br><br>-->
+
+                    <span class="h6">
+                        Contact your supplier or via our contact form.
+                    </span>
                     <br><br>
                     <div class="d-grid my-3">
                         <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
@@ -35,59 +101,11 @@
                         </li>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Start with 125 unique contacts per month
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4">
-            <div class="card card1 h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Extensive</h5>
-                    <small class='text-muted'>tdMessenger</small>
-                    <br><br>
-                    <span class="h2">
-                        &euro;125,00
-                    </span>/month
-                    <br><br>
-                    <div class="d-grid my-3">
-                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
-                    </div>
-                    <ul>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Unlimited number of internal users
+                            Unlimited number of unique contacts
                         </li>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Unlimited number of number links
-                        </li>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Expanding by 500 unique contacts per month
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4">
-            <div class="card card1 h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Custom</h5>
-                    <small class='text-muted'>tdMessenger</small>
-                    <br><br>
-                    <span class="h2">
-                        &euro;0,00
-                    </span>/month
-                    <br><br>
-                    <div class="d-grid my-3">
-                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
-                    </div>
-                    <ul>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Of course, we have quantity discounts for large users. Please contact us for a customized offer.
+                            Unlimited number of campaigns
                         </li>
                     </ul>
                 </div>
@@ -96,48 +114,22 @@
     </div>
     <div class="row section-margin" id="dwpro">
         <div class="col-8 text-center">
-            <h3 class="product-heading">DW Pro</h3>
+            <h3 class="product-heading">Phone for DW Pro / DeltaW</h3>
             <p>
-                Knowing who your customers are. This starts with recognizing your customer when they call. ThinkingDutch links with your Dw Pro for all your employees through your VoIP PBX.
+                See NAW, file number(s) and registration number(s) details before recording.
             </p>
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-12 col-lg-4 mb-4">
+        <div class="col-12 col-lg-6 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">First user</h5>
-                    <small class='text-muted'>DW Pro</small>
+                    <h5 class="card-title">Per branch</h5>
+                    <small class='text-muted'>DW Pro / DeltaW</small>
                     <br><br>
                     <span class="h2">
-                        &euro;17,50
+                        &euro;45,00
                     </span>/month
-                    <br><br>
-                    <div class="d-grid my-3">
-                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
-                    </div>
-                    <ul>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            Easy to install yourself.
-                        </li>
-                        <li class="pricing-feature">
-                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
-                            All options with one package. <b>Including</b> the necessary hardware.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4">
-            <div class="card card1 h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Up to 50 users</h5>
-                    <small class='text-muted'>DW Pro</small>
-                    <br><br>
-                    <span class="h2">
-                        &euro;4,75
-                    </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
                         <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
@@ -151,15 +143,15 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-4 mb-4">
+        <div class="col-12 col-lg-6 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Custom</h5>
-                    <small class='text-muted'>DW Pro</small>
+                    <h5 class="card-title">Yearly pricing</h5>
+                    <small class='text-muted'>DW Pro / DeltaW</small>
                     <br><br>
                     <span class="h2">
-                        &euro;0.00
-                    </span>/month
+                        &euro;500,00
+                    </span>/year
                     <br><br>
                     <div class="d-grid my-3">
                         <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
@@ -173,7 +165,7 @@
     </div>
     <div class="row section-margin" id="autoline">
         <div class="col-8 text-center">
-            <h3 class="product-heading">Autoline</h3>
+            <h3 class="product-heading">Phone for Autoline</h3>
             <p>
                 AutoLine makes sure you know who is calling you by displaying customer information based on the phone number.
             </p>
@@ -183,7 +175,7 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">First user</h5>
+                    <h5 class="card-title">Per branch</h5>
                     <small class='text-muted'>Autoline</small>
                     <br><br>
                     <span class="h2">
@@ -235,7 +227,7 @@
                     <small class='text-muted'>Autoline</small>
                     <br><br>
                     <span class="h2">
-                        &euro;0.00
+                        &euro;0,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
@@ -250,7 +242,7 @@
     </div>
     <div class="row section-margin" id="carsys">
         <div class="col-12 text-center">
-            <h3 class="product-heading">Carsys</h3>
+            <h3 class="product-heading">Phone for Carsys</h3>
             <p>
                 Knowing who your customers are. This starts with recognizing your customer when they call.
             </p>
@@ -260,16 +252,17 @@
         <div class="col-12 col-lg-6 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Monthly pricing</h5>
+                    <h5 class="card-title">Per branch</h5>
                     <small class='text-muted'>Carsys</small>
                     <br><br>
                     <span class="h2">
-                        &euro;35.00
+                        &euro;45,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
                         <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
+                    
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
@@ -290,7 +283,7 @@
                     <small class='text-muted'>Carsys</small>
                     <br><br>
                     <span class="h2">
-                        &euro;350.00
+                        &euro;500,00
                     </span>/year
                     <br><br>
                     <div class="d-grid my-3">
@@ -306,9 +299,10 @@
             </div>
         </div>
     </div>
+
     <div class="row section-margin" id="exactonline">
         <div class="col-12 text-center">
-            <h3 class="product-heading">Exact Online</h3>
+            <h3 class="product-heading">Phone for Exact Online</h3>
             <p>
                 See NAW information of the caller before answering.
             </p>
@@ -318,11 +312,11 @@
         <div class="col-12 col-lg-4 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">First user</h5>
+                    <h5 class="card-title">Per branch</h5>
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
-                        &euro;10.00
+                        &euro;10,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
@@ -348,7 +342,7 @@
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
-                        &euro;2.00
+                        &euro;2,00
                     </span>/month <small>per user</small>
                     <br><br>
                     <div class="d-grid my-3">
@@ -370,7 +364,7 @@
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
-                        &euro;0.00
+                        &euro;0,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">

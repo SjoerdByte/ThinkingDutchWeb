@@ -1,15 +1,15 @@
 const currentLanguage = location.pathname.split('/')[1];
 const languagePack = {
     nl: {
-        'mail_success': 'We hebben uw bericht ontvangen, we nemen snel contact met u op!',
+        'mail_success': 'We hebben uw bericht ontvangen, we nemen snel contact met u op!!',
         'mail_error': 'We konden uw bericht niet versturen, vul de captcha correct in en probeer het opnieuw.'
     },
     en: {
-        'mail_success': 'We have received your message, we will contact you soon!',
+        'mail_success': 'We have received your message, we will contact you soon!!',
         'mail_error': 'We could not send your message, fill in the captcha correctly and try again.'
     }
-
 };
+
 function showMessage(message, type) {
     document.getElementById('response_class').classList.remove('alert-success')
     document.getElementById('response_class').classList.remove('alert-danger')
@@ -20,12 +20,12 @@ function showMessage(message, type) {
 }
 
 
-$('#contact').submit(function(e){
+$('#carsys').submit(function(e){
     document.getElementById('response_loading').style.display = 'block';
 
     let form = $(this);
     $.ajax({
-        url: '/backend/contact.php',
+        url: '/backend/carsysContact.php',
         type: 'POST',
         data: form.serialize(),
         success: function(response) {

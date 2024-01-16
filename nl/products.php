@@ -21,7 +21,7 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 mb-4">
-            <h3 class="product-heading">DW Pro</h3>
+            <h3 class="product-heading">Phone voor DW Pro / DeltaW</h3>
             <p>
                 Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.
                 ThinkingDutch koppelt met uw Dw Pro voor al uw medewerkers via uw VoIP telefooncentrale.<br>
@@ -42,11 +42,11 @@
             <img class="img-fluid mb-4" src="/assets/img/autoline.png" alt="Autoline">
         </div>
         <div class="col-12 col-lg-6">
-            <h3 class="product-heading">AutoLine</h3>
+            <h3 class="product-heading">Phone voor AutoLine</h3>
             <p>
-                AutoLine zorgt ervoor dat u weet wie u belt doormiddel van klantinformatie te tonen op basis van het telefoonnummer.<br>
+                Phone voor AutoLine zorgt ervoor dat u weet wie u belt doormiddel van klantinformatie te tonen op basis van het telefoonnummer.<br>
                 <br>
-                Zie het <b>klantnummer</b> en <b>kenteken(s)</b> voor het opnemen.
+                Zie <b>klantgegevens</b> en <b>kenteken(s)</b> voor het opnemen.
             </p>
             <a href="/nl/pricing#autoline" class="btn btn-orange">
                 Prijzen
@@ -56,7 +56,7 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 mb-4">
-            <h3 class="product-heading">Carsys</h3>
+            <h3 class="product-heading">Phone voor Carsys</h3>
             <p>
                 Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.<br>
                 <br>
@@ -76,7 +76,7 @@
             <img class="img-fluid mb-4" src="/assets/img/exact_online.png" alt="Exact Online">
         </div>
         <div class="col-12 col-lg-6">
-            <h3 class="product-heading">Exact Online</h3>
+            <h3 class="product-heading">Phone voor Exact Online</h3>
             <p>
                 ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
             </p>

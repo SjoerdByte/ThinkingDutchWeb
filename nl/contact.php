@@ -1,47 +1,89 @@
 <?php
-    include('../static/nl/header.php');
+include('../static/nl/header.php');
 ?>
-<main class="container contact-hero">
-    <div class="row">
-        <div class="col-12 col-lg-6 mb-4">
-            <h4>
-                Neem contact op
-                <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
-            </h4>
-            <form method="POST" action="/backend/contact">
-                <div class="row mt-4">
-                    <div id="response_message" style="display:none;" class="col-12">
-                        <div id="response_class" class="alert" role="alert">
-                            <small id="response_body">No message specified.</small>
+    <main class="container contact-hero">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-4">
+                <h4>
+                    Neem contact op
+                    <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
+                </h4>
+                <form method="POST" action="/backend/contact.php" id="contact">
+                    <div class="row mt-4">
+                        <div id="response_message" style="display:none;" class="col-12">
+                            <div id="response_class" class="alert" role="alert">
+                                <small id="response_body">No message specified.</small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Naam:*</label>
+                                <input required type="text" id="name" name="name" class="form-control" placeholder="Naam">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="form-group">
+                                <label>Mobielnummer:</label>
+                                <input type="tel" pattern="(?:(?:\+|00)31|0)6(?:[ -]?[0-9]){8}" id="phone" name="phone" class="form-control" placeholder="Mobielnummer">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-12">
+                            <div class="form-group">
+                                <label>Email:*</label>
+                                <input required type="email" id="email" name="email" class="form-control" placeholder="Email">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="form-group">
-                            <label>Uw naam</label>
-                            <input required type="text" id="name" name="name" class="form-control" placeholder="Uw naam">
+                    <div class="row mt-2 mb-0">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>Bericht:*</label>
+                                <textarea required class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="form-group">
-                            <label>Uw email</label>
-                            <input required type="email" id="email" name="email" class="form-control" placeholder="Uw email">
-                        </div>
+                    <small>Invul velden met "*" zijn verplicht.</small>
+                    <div class="col-lg-12">
+                        <div class="g-recaptcha" data-sitekey="6Ld_3pMoAAAAAEW73p8Iy7c34Ol0neG_iKm4udul"></div>
+                        <button type="submit" class="btn btn-dark">Verzenden</button>
                     </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-12">
-                        <div class="form-group">
-                            <label>Bericht</label>
-                            <textarea required class="form-control" id="message" name="message" rows="3"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2 text-right">
-                    <div class="col-12">
-                        <button class="btn btn-dark">Versturen</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+
+<!--                <script>-->
+<!--                    document.getElementById('contact').addEventListener('submit', function (event) {-->
+<!--                        event.preventDefault();-->
+<!---->
+<!--                        var mobileNumber = document.getElementById('phone').value.trim();-->
+<!--                        var url = "https://www.thinkingdutch.com/nl/tdmmessengersite.php";-->
+<!--                        var Request = {};-->
+<!---->
+<!--                        Request.phone = mobileNumber;-->
+<!--                        Request.name = document.getElementById('name').value;-->
+<!---->
+<!--                        fetch(url, {-->
+<!--                            method: 'POST',-->
+<!--                            mode: 'cors',-->
+<!--                            cache: 'no-cache',-->
+<!--                            headers: {-->
+<!--                                'Accept': 'application/json',-->
+<!--                                'Content-Type': 'application/json',-->
+<!--                                'Access-Control-Allow-Origin': '*'-->
+<!--                            },-->
+<!--                            credentials: 'omit',-->
+<!--                            redirect: 'follow',-->
+<!--                            keepalive: true,-->
+<!--                            referrerPolicy: 'no-referrer',-->
+<!--                            body: JSON.stringify(Request)-->
+<!--                        })-->
+<!--                            .then(response => {-->
+<!--                                console.log('Response', response);-->
+<!--                            })-->
+<!--                            .catch(error => {-->
+<!--                                console.log('Error', error);-->
+<!--                            });-->
+<!--                    });-->
+<!--                </script>-->
+
         </div>
         <div class="col-12 col-lg-4">
             <h4>Contact gegevens</h4>
@@ -60,17 +102,27 @@
                     <a href="mailto:info@thinkingdutch.com">info@thinkingdutch.com</a>
                 </p>
                 <p class="contact-details">
-                    <img class="contact-icon" src="/assets/img/twitter.svg" alt="Twitter Logo">
+                    <img class="contact-icon" src="/assets/img/twitter.svg" alt="Twitter / X Logo">
                     <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
                 </p>
                 <p class="contact-details">
+                    <img class="contact-icon" src="/assets/img/linkedin.svg" alt="Linkedin Icon">
+                    <a href="https://www.linkedin.com/company/thinkingdutch/about/" target="_BLANK">ThinkingDutch</a>
+                </p>
+                <p class="contact-details">
                     <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">
-                    <a href="tel:+31857826772">085 7826772</a>
+                    <a href="tel:+31857826772">+31 (0) 857826772</a>
+                </p>
+                <p class="contact-details">
+                    <img class="contact-icon" src="/assets/img/whatsapp.svg" alt="Whatsapp Logo">
+                    <a href="https://wa.me/message/6AB7GYJBUDPLE1" target="_BLANK">WhatsApp</a>
                 </p>
             </div>
         </div>
     </div>
 </main>
+
+    <script src="/assets/js/javascript.js"></script>
 <?php
     $disableDetails = true;
     include('../static/nl/footer.php');

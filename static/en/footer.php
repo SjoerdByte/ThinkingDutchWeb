@@ -26,10 +26,19 @@
                             <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>
                         </p>
                         <p class="contact-details">
+                            <img class="contact-icon" src="/assets/img/linkedin.svg" alt="Linkedin Icon">
+                            <a href="https://www.linkedin.com/company/thinkingdutch/about/" target="_BLANK">@ThinkingDutch</a>
+                        </p>
+                        <p class="contact-details">
                             <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">
-                            <a href="tel:+31857826772">085 7826772</a>
+                            <a href="tel:+31857826772">+31 (0) 857826772</a>
+                        </p>
+                        <p class="contact-details">
+                            <img class="contact-icon" src="/assets/img/whatsapp.svg" alt="Whatsapp Logo">
+                            <a href="https://wa.me/message/6AB7GYJBUDPLE1" target="_BLANK">WhatsApp</a>
                         </p>
                     </div>
+
                     <div class="col-12 col-lg-2 d-none d-lg-block">
                         <p>
                             <a href="/en/" class="text-reset">Home</a>
@@ -60,4 +69,5 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/js/javascript.js"></script>
+<script src="/assets/js/carsys.js"></script>
 </body>

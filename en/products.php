@@ -21,7 +21,7 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
-            <h3 class="product-heading">DW Pro</h3>
+            <h3 class="product-heading">Phone for DW Pro / DeltaW</h3>
             <p>
                 Knowing who your customers are. This starts with recognizing your customer when they call.
                 ThinkingDutch links with your Dw Pro for all your employees through your VoIP PBX.<br>
@@ -42,11 +42,11 @@
             <img class="img-fluid" src="/assets/img/autoline.png" alt="Autoline">
         </div>
         <div class="col-12 col-lg-6 ml-5">
-            <h3 class="product-heading">AutoLine</h3>
+            <h3 class="product-heading">Phone for AutoLine</h3>
             <p>
-                AutoLine ensures that you know who is calling you by displaying customer information based on the phone number.<br>
+                Phone for AutoLine ensures that you know who is calling you by displaying customer information based on the phone number.<br>
                 <br>
-                See <b>customer number</b> and <b>license plate(s)</b> before picking up.
+                See <b>customer info</b> and <b>license plate(s)</b> before picking up.
             </p>
             <a href="/en/pricing#autoline" class="btn btn-orange">
                 Pricing
@@ -56,7 +56,7 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
-            <h3 class="product-heading">Carsys</h3>
+            <h3 class="product-heading">Phone for Carsys</h3>
             <p>
                 Knowing who your customers are. This starts with recognizing your customer when they call.<br>
                 <br>
@@ -76,7 +76,7 @@
             <img class="img-fluid" src="/assets/img/exact_online.png" alt="Exact Online">
         </div>
         <div class="col-12 col-lg-6 ml-5">
-            <h3 class="product-heading">Exact Online</h3>
+            <h3 class="product-heading">Phone for Exact Online</h3>
             <p>
                 ThinkingDutch links with your Exact Online for all your employees via your VoIP PBX.
             </p>
