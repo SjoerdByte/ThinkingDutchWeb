@@ -93,7 +93,7 @@ if ($response['success']) {
                 <br>
                 
                 <b>Interesse in:</b> " . implode(", ", $_POST['interest']) . "<br>
-                <b>Aantal gebruikers:</b> " . implode(", ", $_POST['amount']) . "<br>
+                <b>Aantal vestigingen:</b> " . implode(", ", $_POST['amount']) . "<br>
                 <b>Telefoonnummer centrale:</b> " . implode(", ", $_POST['phone_central']) . "<br>
                 
              </div>";

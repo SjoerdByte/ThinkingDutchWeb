@@ -72,37 +72,37 @@ include('../static/en/header.php');
                     </div>
 
                     <div class="col-lg-12" style="margin-bottom: 5%">
-                        <p class="form-text">Number of Employees</p>
+                        <p class="form-text">Number of branches</p>
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="0-5" id="amount">
+                                    <input class="form-check-input" type="checkbox" value="1" id="amount">
                                     <label class="form-check-label" for="amount">
-                                        0-5
+                                        1
                                     </label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="5-10" id="amount">
+                                    <input class="form-check-input" type="checkbox" value="2" id="amount">
                                     <label class="form-check-label" for="amount">
-                                        5-10
+                                        2
                                     </label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="10-25" id="amount">
+                                    <input class="form-check-input" type="checkbox" value="3" id="amount">
                                     <label class="form-check-label" for="amount">
-                                        10-25
+                                        3
                                     </label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="25+" id="amount">
+                                    <input class="form-check-input" type="checkbox" value="4+" id="amount">
                                     <label class="form-check-label" for="amount">
-                                        25+
+                                        4+
                                     </label>
                                 </div>
                             </div>

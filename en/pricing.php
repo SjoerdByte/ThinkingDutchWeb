@@ -262,7 +262,7 @@
                     <div class="d-grid my-3">
                         <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
                     </div>
-                    
+
                     <ul>
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">

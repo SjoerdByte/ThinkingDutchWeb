@@ -20,9 +20,16 @@ if ($response['success']) {
     $message = $_POST['message'];
     $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
 
+    // Check if all required fields are filled
     if (empty($name) || empty($email) || empty($message)) {
         echo json_encode(['success' => false, 'error' => 'Please fill in all required fields.']);
         return;
+    }
+
+    // Validate the email domain (only Dutch mail)
+    if (!preg_match('/@([a-zA-Z0-9-]+\.)?nl$/', $email)) {
+        echo json_encode(['success' => false]);
+        header('Location: ../nl/error.php');
     }
 
     $body = "<div>
