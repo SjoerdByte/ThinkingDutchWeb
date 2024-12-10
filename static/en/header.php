@@ -19,7 +19,7 @@
 <header>
     <div id="navbar" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow navbar-fixed">
         <a href="/en" class="my-0 mr-md-auto">
-            <img class="navbar-image" src="/assets/img/logo_transparant.png">
+            <img class="navbar-image" src="/assets/img/logo_transparant.png" alt="logo">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'home') echo 'nav-active' ?>" href="/en">Home</a>

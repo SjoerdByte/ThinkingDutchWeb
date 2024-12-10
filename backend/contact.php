@@ -26,10 +26,10 @@ if ($response['success']) {
         return;
     }
 
-    // Validate the email domain (only Dutch mail)
-    if (!preg_match('/@([a-zA-Z0-9-]+\.)?nl$/', $email)) {
+    if (!preg_match('/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/', $email)) {
         echo json_encode(['success' => false]);
         header('Location: ../nl/error.php');
+        return;
     }
 
     $body = "<div>
