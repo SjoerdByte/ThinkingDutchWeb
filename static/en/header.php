@@ -2,9 +2,26 @@
     $currentPage = explode("/", str_replace(".php", "", $_SERVER['REQUEST_URI']))[2];
     $switchPageUrl = $currentPage;
     if(!$currentPage) $currentPage = 'home';
+
+    if (!empty($_SERVER['QUERY_STRING'])) {
+    header("Location: https://thinkingdutch.com/nl/pricing", true, 301);
+    exit();
+}
+
 ?>
 <html lang="nl">
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5QZH34FNQT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5QZH34FNQT');
+</script>
+
     <title>ThinkingDutch | <?php echo ucfirst($currentPage) ?></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +36,7 @@
 <header>
     <div id="navbar" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 box-shadow navbar-fixed">
         <a href="/en" class="my-0 mr-md-auto">
-            <img class="navbar-image" src="/assets/img/logo_transparant.png" alt="logo">
+            <img class="navbar-image" src="/assets/img/logo_transparant.png">
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'home') echo 'nav-active' ?>" href="/en">Home</a>

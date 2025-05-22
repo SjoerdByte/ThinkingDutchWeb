@@ -1,10 +1,28 @@
+
 <?php
     $currentPage = explode("/", str_replace(".php", "", $_SERVER['REQUEST_URI']))[2];
     $switchPageUrl = $currentPage;
     if(!$currentPage) $currentPage = 'home';
+
+    if (!empty($_SERVER['QUERY_STRING'])) {
+    header("Location: https://thinkingdutch.com/nl/pricing", true, 301);
+    exit();
+}
+
 ?>
 <html lang="nl">
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5QZH34FNQT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5QZH34FNQT');
+</script>
+
     <title>ThinkingDutch | <?php echo ucfirst($currentPage); ?></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
