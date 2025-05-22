@@ -37,8 +37,8 @@ if ($response['success']) {
     $klantcode = "thinkingdutch";
     $apikey = "XMfXEvU3yJSUWKmdi0aPPephThcAVc";
     $userid = "edwin";
-    $reference = "website_carsys";
-    $templatename = "carsys_welkom";
+    $reference = "website_autoflex";
+    $templatename = "autoflex_welkom";
     $phonenumbers = array($phone);
     $klantnaam = $name;
 
@@ -101,7 +101,7 @@ if ($response['success']) {
             . 'Content-type: text/html; charset=utf-8' . "\r\n"
             . 'From: ' . $email . "\r\n";
 
-        if (mail('sales@thinkingdutch.com', 'Carsys contact formulier - ThinkingDutch.com', $body, $headers)) {
+        if (mail('autoflexform@thinkingdutch.com', 'Autoflex contact formulier - ThinkingDutch.com', $body, $headers)) {
             echo json_encode(['success' => true]);
             header('Location: ../nl/thankyou.php');
             exit();

@@ -103,7 +103,7 @@ if ($response['success']) {
             . 'Content-type: text/html; charset=utf-8' . "\r\n"
             . 'From: ' . $email . "\r\n";
 
-        if (mail('sales@thinkingdutch.com', 'Carsys contact formulier - ThinkingDutch.com', $body, $headers)) {
+        if (mail('carsysform@thinkingdutch.com', 'Carsys contact formulier - ThinkingDutch.com', $body, $headers)) {
             echo json_encode(['success' => true]);
             header('Location: ../nl/thankyou.php');
             exit();
