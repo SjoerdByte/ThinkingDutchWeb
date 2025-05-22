@@ -19,9 +19,6 @@
                 <div class="card-body">
                     <h4 class="card-title">Standard</h4>
                     <hr>
-<!--                    <small class='text-muted'>tdMessenger</small>-->
-<!--                    <br><br>-->
-
                     <span class="h6">
                         For pricing information, contact us via our contact form.
                     </span>
@@ -48,9 +45,6 @@
                 <div class="card-body">
                     <h4 class="card-title">Carsys</h4>
                     <hr>
-<!--                    <small class='text-muted'>tdMessenger</small>-->
-<!--                    <br><br>-->
-
                     <span class="h6">
                         Contact your supplier or via our contact form.
                     </span>
@@ -80,9 +74,6 @@
                 <div class="card-body">
                     <h4 class="card-title">Wincar</h4>
                     <hr>
-<!--                    <small class='text-muted'>tdMessenger</small>-->
-<!--                    <br><br>-->
-
                     <span class="h6">
                         Contact your supplier or via our contact form.
                     </span>
@@ -128,7 +119,7 @@
                     <small class='text-muted'>DW Pro / DeltaW</small>
                     <br><br>
                     <span class="h2">
-                        &euro;45,00
+                        &euro;47,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
@@ -150,7 +141,7 @@
                     <small class='text-muted'>DW Pro / DeltaW</small>
                     <br><br>
                     <span class="h2">
-                        &euro;500,00
+                        &euro;520,00
                     </span>/year
                     <br><br>
                     <div class="d-grid my-3">
@@ -165,7 +156,7 @@
     </div>
     <div class="row section-margin" id="autoline">
         <div class="col-8 text-center">
-            <h3 class="product-heading">Phone for Autoline</h3>
+            <h3 class="product-heading">Phone for Autoline Lite</h3>
             <p>
                 AutoLine makes sure you know who is calling you by displaying customer information based on the phone number.
             </p>
@@ -256,7 +247,7 @@
                     <small class='text-muted'>Carsys</small>
                     <br><br>
                     <span class="h2">
-                        &euro;45,00
+                        &euro;47,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
@@ -283,7 +274,7 @@
                     <small class='text-muted'>Carsys</small>
                     <br><br>
                     <span class="h2">
-                        &euro;500,00
+                        &euro;520,00
                     </span>/year
                     <br><br>
                     <div class="d-grid my-3">
@@ -293,6 +284,65 @@
                         <li class="pricing-feature">
                             <img class="pricing-icon" src="/assets/img/circle-check.svg">
                             Easily add additional users through our portal.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row section-margin" id="eva">
+        <div class="col-12 text-center">
+            <h3 class="product-heading">Phone for EVA</h3>
+            <p>
+                Knowing who your customers are. This starts with recognising your customer when they call.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 col-lg-6 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Per branch</h5>
+                    <small class='text-muted'>EVA</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;47,00
+                    </span>/month
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Easy to install yourself.
+                        </li>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            All options with one package.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+            <div class="card card1 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Per branch</h5>
+                    <small class='text-muted'>EVA</small>
+                    <br><br>
+                    <span class="h2">
+                        &euro;520,00
+                    </span>/year
+                    <br><br>
+                    <div class="d-grid my-3">
+                        <a href="/en/contact" class="btn btn-outline-dark btn-block">Contact us</a>
+                    </div>
+                    <ul>
+                        <li class="pricing-feature">
+                            <img class="pricing-icon" src="/assets/img/circle-check.svg">
+                            Easily add additional users via our portal.
                         </li>
                     </ul>
                 </div>
@@ -316,7 +366,7 @@
                     <small class='text-muted'>Exact Online</small>
                     <br><br>
                     <span class="h2">
-                        &euro;10,00
+                        &euro;15,00
                     </span>/month
                     <br><br>
                     <div class="d-grid my-3">
