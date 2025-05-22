@@ -73,7 +73,7 @@ include('../static/en/header.php');
             <p>Please fill in the following details as completely as possible</p>
 
             <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
-            <form method="POST" action="/backend/carsysContact.php" id="carsys">
+            <form method="POST" action="/backend/autoflexContact.php" id="autoflex">
                 <div class="row">
                     <div id="response_message" style="display:none;" class="col-12">
                         <div id="response_class" class="alert" role="alert">
@@ -126,7 +126,7 @@ include('../static/en/header.php');
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="phone" id="phone">
                                     <label class="form-check-label" for="interest">
-                                        Phone for Carsys
+                                        Phone for Autoflex
                                     </label>
                                 </div>
                             </div>

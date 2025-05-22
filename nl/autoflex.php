@@ -74,7 +74,7 @@ include('../static/nl/header.php');
                 <p>Graag onderstaande gegevens zo compleet mogelijk invullen</p>
 
                 <div id="response_loading" style="display:none;" class="spinner-border text-dark ml-2" role="status"></div>
-                <form id="carsys" method="POST" action="/backend/carsysContact.php">
+                <form id="autoflex" method="POST" action="/backend/autoflexContact.php">
                     <div class="row">
                         <div id="response_message" style="display:none;" class="col-12">
                             <div id="response_class" class="alert" role="alert">
@@ -127,7 +127,7 @@ include('../static/nl/header.php');
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="phone" id="phone" name="interest[]">
                                         <label class="form-check-label" for="interest">
-                                            Phone voor Carsys
+                                            Phone voor Autoflex
                                         </label>
                                     </div>
                                 </div>
