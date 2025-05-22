@@ -213,19 +213,6 @@ include('../static/nl/header.php');
                                     </div>
                                 </div>
                             </div>
-<!--                            <div class="dropdown">-->
-<!--                                <button class="btn btn-orange dropdown-toggle col-12 text-left" type="button" id="sampleDropdownMenu" data-toggle="dropdown">-->
-<!--                                    Dropdown-->
-<!--                                </button>-->
-<!--                                <div class="dropdown-menu">-->
-<!--                                    <button class="dropdown-item" type="button"><input type="checkbox" />Action</button>-->
-<!--                                    <button class="dropdown-item" type="button"><input type="checkbox" />Action</button>-->
-<!--                                    <button class="dropdown-item" type="button"><input type="checkbox" />Action</button>-->
-<!--                                    <button class="dropdown-item" type="button"><input type="checkbox" />Action</button>-->
-<!--                                    <button class="dropdown-item" type="button"><input  type="text" id="phone" name="phone" class="form-control" placeholder="Anders..."></button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-
                         </div>
                     </div>
                     <div class="row mt-2">
@@ -277,31 +264,10 @@ include('../static/nl/header.php');
             <div class="col-12 col-lg-4" style="padding-top: 11%">
                 <h4>Contact gegevens</h4>
                 <div class="mt-4 contact">
-<!--                    <p class="address-details">-->
-<!--                        <img class="business-icon" src="/assets/img/logo_icon_transparant.png" alt="ThinkingDutch Icon">-->
-<!--                        ThinkingDutch<br>-->
-<!--                    <div class="address-spacing">-->
-<!--                        Theodora Haverstraat 18<br>-->
-<!--                        5122BD Rijen<br>-->
-<!--                        Nederland-->
-<!--                    </div>-->
-<!--                    </p>-->
                     <p class="contact-details">
                         <img class="contact-icon" src="/assets/img/mail.svg" alt="Email Icon">
                         <a href="mailto:sales@thinkingdutch.com">sales@thinkingdutch.com</a>
                     </p>
-<!--                    <p class="contact-details">-->
-<!--                        <img class="contact-icon" src="/assets/img/twitter.svg" alt="Twitter / X Logo">-->
-<!--                        <a href="https://twitter.com/thinkingdutch" target="_BLANK">@thinkingdutch</a>-->
-<!--                    </p>-->
-<!--                    <p class="contact-details">-->
-<!--                        <img class="contact-icon" src="/assets/img/linkedin.svg" alt="Linkedin Icon">-->
-<!--                        <a href="https://www.linkedin.com/company/thinkingdutch/about/" target="_BLANK">ThinkingDutch</a>-->
-<!--                    </p>-->
-<!--                    <p class="contact-details">-->
-<!--                        <img class="contact-icon" src="/assets/img/phone.svg" alt="Phone Icon">-->
-<!--                        <a href="tel:+31857826772">+31 (0) 857826772</a>-->
-<!--                    </p>-->
                     <p class="contact-details">
                         <img class="contact-icon" src="/assets/img/whatsapp.svg" alt="Whatsapp Logo">
                         <a href="https://wa.me/message/PBWRACLQKKZJP1" target="_BLANK">WhatsApp</a>
