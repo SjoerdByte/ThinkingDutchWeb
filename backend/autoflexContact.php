@@ -8,61 +8,57 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 $recaptchaSecretKey = "6Ld_3pMoAAAAAKbTExtdIUEuY9mzPL0MbxCSKz-C";
-$recaptchaResponse = $_POST['g-recaptcha-response'];
+$recaptchaResponse = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
 
 $responseKeys = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecretKey&response=$recaptchaResponse");
-$recaptchaVerifyUrl = "https://www.google.com/recaptcha/api/siteverify";
-
 $response = json_decode($responseKeys, true);
 
 if ($response['success']) {
-    $company_name = filter_var($_POST['company_name'], FILTER_SANITIZE_STRING);
-    $company_place = filter_var($_POST['company_place'], FILTER_SANITIZE_STRING);
-
-    $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-    $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
-    $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+    $company_name = strip_tags(isset($_POST['company_name']) ? $_POST['company_name'] : '');
+    $company_place = strip_tags(isset($_POST['company_place']) ? $_POST['company_place'] : '');
+    $name = strip_tags(isset($_POST['name']) ? $_POST['name'] : '');
+    $phone = strip_tags(isset($_POST['phone']) ? $_POST['phone'] : '');
+    $email = filter_var(isset($_POST['email']) ? $_POST['email'] : '', FILTER_VALIDATE_EMAIL);
 
     if (!$email) {
         echo json_encode(['success' => false, 'error' => 'Invalid email address']);
         return;
     }
 
-    $carsys = $_POST['version'];
-    $amount = $_POST['amount'];
-    $phone_central = $_POST['phone_central'];
-
-    $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+    $carsys = isset($_POST['version']) ? $_POST['version'] : [];
+    $amount = isset($_POST['amount']) ? $_POST['amount'] : [];
+    $phone_central = isset($_POST['phone_central']) ? $_POST['phone_central'] : [];
+    $message = strip_tags(isset($_POST['message']) ? $_POST['message'] : '');
 
     $klantcode = "thinkingdutch";
     $apikey = "XMfXEvU3yJSUWKmdi0aPPephThcAVc";
     $userid = "edwin";
     $reference = "website_autoflex";
     $templatename = "autoflex_welkom";
-    $phonenumbers = array($phone);
+    $phonenumbers = [$phone];
     $klantnaam = $name;
 
-    $messageObj = array(
+    $messageObj = [
         "apikey" => $apikey,
         'userid' => $userid,
-        "messages" => array(
-            array(
+        "messages" => [
+            [
                 "phone" => $phonenumbers,
                 "reference" => $reference,
                 "templatename" => $templatename,
-                "parameters" => array(
-                    "customername" => $klantnaam
-                )
-            )
-        )
-    );
+                "parameters" => [
+                    "customername" => $klantnaam,
+                ],
+            ],
+        ],
+    ];
 
     $url = "https://{$klantcode}.tdmessenger.nl/api/submitmessage.php";
 
     $ch = curl_init();
-    $optarray = array(
+    $optarray = [
         CURLOPT_URL => $url,
-        CURLOPT_HTTPHEADER => array("Accept: application/json", "Access-Control-Allow-Origin: *"),
+        CURLOPT_HTTPHEADER => ["Accept: application/json", "Access-Control-Allow-Origin: *"],
         CURLOPT_CUSTOMREQUEST => "POST",
         CURLOPT_SSL_VERIFYPEER => 1,
         CURLOPT_RETURNTRANSFER => 1,
@@ -71,8 +67,8 @@ if ($response['success']) {
         CURLOPT_TIMEOUT => 0,
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_POSTFIELDS => json_encode($messageObj)
-    );
+        CURLOPT_POSTFIELDS => json_encode($messageObj),
+    ];
     curl_setopt_array($ch, $optarray);
     $json = curl_exec($ch);
     curl_close($ch);
@@ -80,43 +76,39 @@ if ($response['success']) {
     error_log("Output response: " . $json);
 
     if (strpos($json, "success") !== false) {
-        $body = "<div>
-                <b>Name:</b> " . $name . "<br>
-                <b>Telefoon nummer:</b> " . $phone . "<br>
-                <b>Email:</b> " . $email . "<br>
-                <b>Bericht:</b> " . $message . "<br>
-                <br>
-                
-                <b>Bedrijfsnaam:</b> " . $company_name . "<br>
-                <b>Bedrijfsvesteging:</b> " . $company_place . "<br>
-                <br>
-                
-                <b>Carsys versie:</b> " . implode(", ", $_POST['version']) . "<br>
-                <b>Aantal gebruikers:</b> " . implode(", ", $_POST['amount']) . "<br>
-                <b>Telefoonnummer centrale:</b> " . implode(", ", $_POST['phone_central']) . "<br>
-                
-             </div>";
+        $carsysText = is_array($carsys) ? implode(", ", $carsys) : $carsys;
+        $amountText = is_array($amount) ? implode(", ", $amount) : $amount;
+        $phoneCentralText = is_array($phone_central) ? implode(", ", $phone_central) : $phone_central;
 
-        $headers = 'MIME-Version: 1.0' . "\r\n"
-            . 'Content-type: text/html; charset=utf-8' . "\r\n"
-            . 'From: ' . $email . "\r\n";
+        $body = "<div>
+            <b>Name:</b> {$name}<br>
+            <b>Telefoon nummer:</b> {$phone}<br>
+            <b>Email:</b> {$email}<br>
+            <b>Bericht:</b> {$message}<br><br>
+
+            <b>Bedrijfsnaam:</b> {$company_name}<br>
+            <b>Bedrijfsvesteging:</b> {$company_place}<br><br>
+
+            <b>Carsys versie:</b> {$carsysText}<br>
+            <b>Aantal gebruikers:</b> {$amountText}<br>
+            <b>Telefoonnummer centrale:</b> {$phoneCentralText}<br>
+        </div>";
+
+        $headers = 'MIME-Version: 1.0' . "\r\n" . 'Content-type: text/html; charset=utf-8' . "\r\n" . 'From: ' . $email . "\r\n";
 
         if (mail('autoflexform@thinkingdutch.com', 'Autoflex contact formulier - ThinkingDutch.com', $body, $headers)) {
             echo json_encode(['success' => true]);
             header('Location: ../nl/thankyou.php');
             exit();
         } else {
-            echo json_encode(['success' => false, 'error' => 'Failed to send email.']);
-            header(error_log('Failed to send email.'));
+            error_log('Failed to send email.');
             header('Location: ../nl/autoflex.php?error=Failed to send email.');
         }
     } else {
-        echo json_encode(['success' => false, 'error' => 'WhatsApp message sending failed.']);
-        header(error_log('WhatsApp message sending failed.'));
+        error_log('WhatsApp message sending failed.');
         header('Location: ../nl/autoflex.php?error=WhatsApp message sending failed.');
     }
 } else {
-    echo json_encode(['success' => false, 'error' => 'reCAPTCHA verification failed']);
-    header(error_log('reCAPTCHA verification failed'));
+    error_log('reCAPTCHA verification failed');
     header('Location: ../nl/autoflex.php?error=reCAPTCHA verification failed');
 }
