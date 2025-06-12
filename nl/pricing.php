@@ -317,7 +317,7 @@
         <div class="col-12 col-lg-6 mb-4">
             <div class="card card1 h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Per vesteging</h5>
+                    <h5 class="card-title">Per vestiging</h5>
                     <small class='text-muted'>EVA</small>
                     <br><br>
                     <span class="h2">

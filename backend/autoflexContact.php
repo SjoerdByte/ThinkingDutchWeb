@@ -87,7 +87,7 @@ if ($response['success']) {
             <b>Bericht:</b> {$message}<br><br>
 
             <b>Bedrijfsnaam:</b> {$company_name}<br>
-            <b>Bedrijfsvesteging:</b> {$company_place}<br><br>
+            <b>Bedrijfsvestiging:</b> {$company_place}<br><br>
 
             <b>Carsys versie:</b> {$carsysText}<br>
             <b>Aantal gebruikers:</b> {$amountText}<br>
