@@ -31,7 +31,7 @@
                 <br>
                 Zie <b>kentekens</b> en <b>dossiernummers</b> voordat u opneemt.
             </p>
-            <a href="/nl/pricing#dwpro" class="btn btn-orange">
+            <a href="/nl/pricing#phone" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -51,7 +51,7 @@
                 <br>
                 Zie <b>klantgegevens</b> en <b>kenteken(s)</b> voor het opnemen.
             </p>
-            <a href="/nl/pricing#autoline" class="btn btn-orange">
+            <a href="/nl/pricing#phone" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -65,7 +65,7 @@
                 <br>
                 ThinkingDutch koppelt met uw Carsys voor al uw medewerkers via uw VoIP telefooncentrale.
             </p>
-            <a href="/nl/pricing#carsys" class="btn btn-orange">
+            <a href="/nl/pricing#phone" class="btn btn-orange">
                 Prijzen
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -76,9 +76,23 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-4">
-            <img class="img-fluid mb-4" src="/assets/img/exact_online.png" alt="Exact Online">
+            <img class="img-fluid mb-4" src="/assets/img/autoflex.jpg" alt="Autoflex">
         </div>
         <div class="col-12 col-lg-6">
+            <h3 class="product-heading">Phone voor Autoflex</h3>
+            <p>
+                Weten wie uw klanten zijn. Dit begint bij het herkennen van uw klant als deze belt.<br>
+                <br>
+                ThinkingDutch koppelt met uw Autoflex voor al uw medewerkers via uw VoIP telefooncentrale.
+            </p>
+            <a href="/nl/pricing#phone" class="btn btn-orange">
+                Prijzen
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
+            </a>
+        </div>
+    </div>
+    <div class="row section-margin">
+        <div class="col-12 col-lg-6 mb-4">
             <h3 class="product-heading">Phone voor Exact Online</h3>
             <p>
                 ThinkingDutch koppelt met uw Exact Online voor al uw medewerkers via uw VoIP telefooncentrale.
@@ -88,7 +102,11 @@
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
         </div>
+        <div class="col-12 col-lg-4">
+            <img class="img-fluid" src="/assets/img/exact_online.png" alt="Exact Online">
+        </div>
     </div>
+
 </main>
 <?php
     include('../static/nl/footer.php');

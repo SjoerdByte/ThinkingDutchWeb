@@ -31,7 +31,7 @@
                 <br>
                 See <b>license plates</b> and <b>file numbers</b> before picking up.
             </p>
-            <a href="/en/pricing#dwpro" class="btn btn-orange">
+            <a href="/en/pricing#phone" class="btn btn-orange">
                 Pricing
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -51,7 +51,7 @@
                 <br>
                 See <b>customer info</b> and <b>license plate(s)</b> before picking up.
             </p>
-            <a href="/en/pricing#autoline" class="btn btn-orange">
+            <a href="/en/pricing#phone" class="btn btn-orange">
                 Pricing
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -65,7 +65,7 @@
                 <br>
                 ThinkingDutch links with your Carsys for all your employees through your VoIP PBX.
             </p>
-            <a href="/en/pricing#carsys" class="btn btn-orange">
+            <a href="/en/pricing#phone" class="btn btn-orange">
                 Pricing
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
@@ -76,8 +76,22 @@
     </div>
     <div class="row section-margin">
         <div class="col-12 col-lg-4">
-            <img class="img-fluid" src="/assets/img/exact_online.png" alt="Exact Online">
+            <img class="img-fluid" src="/assets/img/autoflex.jpg" alt="Autoflex">
         </div>
+        <div class="col-12 col-lg-6 ml-5">
+            <h3 class="product-heading">Phone for Autoflex</h3>
+            <p>
+                Knowing who your customers are. This starts with recognizing your customer when they call.<br>
+                <br>
+                ThinkingDutch links with your Autoflex for all your employees through your VoIP PBX.
+            </p>
+            <a href="/en/pricing#phone" class="btn btn-orange">
+                Pricing
+                <img class="button-icon" src="/assets/img/chevron-right.svg">
+            </a>
+        </div>
+    </div>
+    <div class="row section-margin">
         <div class="col-12 col-lg-6 ml-5">
             <h3 class="product-heading">Phone for Exact Online</h3>
             <p>
@@ -87,6 +101,9 @@
                 Pricing
                 <img class="button-icon" src="/assets/img/chevron-right.svg">
             </a>
+        </div>
+        <div class="col-12 col-lg-4">
+            <img class="img-fluid" src="/assets/img/exact_online.png" alt="Exact Online">
         </div>
     </div>
 </main>
