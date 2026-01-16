@@ -7,10 +7,13 @@
             <img class="img-fluid mb-4" src="/assets/img/td-messenger.png" alt="TD Messenger">
         </div>
         <div class="col-12 col-lg-6">
-            <h3 class="product-heading">tdMessenger</h3>
-            <p>
+            <h3 class="product-heading d-flex align-items-center">
+                tdMessenger
+                <span class="badge ml-3" style="font-size: 0.9rem; padding: 0.4em 0.8em; background-color: #DBF8C5; border: 1px solid #155724; color: #155724;">Now with integrated AI!</span>
+            </h3>
+            <p style="white-space: pre-line;">
                 Communicate with all of your company over one or more landline phone numbers via WhatsApp.<br>
-                <br>
+                <span style="color: #2A7D3B; font-weight: bold;">Automatic replies using AI.</span><br>
                 Send and receive messages like a PBX works.
             </p>
             <a href="/en/pricing" class="btn btn-orange">

@@ -41,7 +41,7 @@
         </a>
         <nav class="mb-3 mt-3 mb-md-0 mt-md-0">
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'home') echo 'nav-active' ?>" href="/nl">Home</a>
-            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'products') echo 'nav-active' ?>" href="/nl/products">Producten</a>
+            <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'products') echo 'nav-active' ?>" href="/nl/products">Producten <span class="badge badge-pill" style="font-size: 0.65rem; padding: 0.25em 0.5em; background-color: #fff3cd; border: 1px solid #F2A900; color: #F2A900; position: relative; top: -10px;">Nieuw</span></a>
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'pricing') echo 'nav-active' ?>" href="/nl/pricing">Prijzen</a>
             <a class="p-2 p-md-3 nav-item <?php if($currentPage == 'contact') echo 'nav-active' ?>" href="/nl/contact">Contact</a>
         </nav>

@@ -7,10 +7,13 @@
             <img class="img-fluid mb-4" src="/assets/img/td-messenger.png" alt="TD Messenger">
         </div>
         <div class="col-12 col-lg-6">
-            <h3 class="product-heading">tdMessenger</h3>
-            <p>
+            <h3 class="product-heading d-flex align-items-center">
+                tdMessenger
+                <span class="badge ml-3" style="font-size: 0.9rem; padding: 0.4em 0.8em; background-color: #DBF8C5; border: 1px solid #155724; color: #155724;">Nu met geïntegreerde AI!</span>
+            </h3>
+            <p style="white-space: pre-line;">
                 Communiceer met heel uw bedrijf over één of meerdere vaste telefoonnummers via WhatsApp.<br>
-                <br>
+                <span style="color: #2A7D3B; font-weight: bold;">Automatisch antwoorden met behulp van AI.</span><br>
                 Stuur en ontvang berichten zoals een telefooncentrale werkt.
             </p>
             <a href="/nl/pricing" class="btn btn-orange">
